@@ -1,0 +1,6 @@
+version = 12
+name = "AS_testing"
+description = "first_ecp_service"
+authors = ["alobdill+ecp@fastly.com"]
+language = "assemblyscript"
+service_id = "3EUDvk7KecMp0xuQoVMLie"
