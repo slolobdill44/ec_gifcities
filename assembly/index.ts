@@ -6,9 +6,6 @@ import { Request,  Response, Fastly, RequestInit } from "@fastly/as-compute";
 // `Hosts` section of the Fastly Wasm service UI for more information.
 const GIFCITIES_BACKEND = "gifcities.archive.org";
 
-/// The name of a second backend associated with this service.
-// const OTHER_BACKEND_NAME = "other_backend_name";
-
 // The entry point for your application.
 //
 // Use this function to define your main request handling logic. It could be
@@ -16,8 +13,6 @@ const GIFCITIES_BACKEND = "gifcities.archive.org";
 // the request to a backend, make completely new requests, and/or generate
 // synthetic responses.
 function main(req: Request): Response {
-    // Make any desired changes to the client request.
-    // req.headers.set("Host", "example.com");
 
     // We can filter requests that have unexpected methods.
     const VALID_METHODS = ["HEAD", "GET", "POST"];
@@ -42,30 +37,6 @@ function main(req: Request): Response {
           url: "/"
         });
     }
-
-    // If request is a `GET` to the `/backend` path, send to a named backend.
-    if (method == "GET" && path == "/backend") {
-        // Request handling logic could go here...
-        // E.g., send the request to an origin backend and then cache the
-        // response for one minute.
-        let cacheOverride = new Fastly.CacheOverride();
-        cacheOverride.setTTL(60);
-        return Fastly.fetch(req, {
-            backend: GIFCITIES_BACKEND,
-            cacheOverride,
-        }).wait();
-    }
-
-    // If request is a `GET` to a path starting with `/other/`.
-    // if (method == "GET" && path.startsWith("/other/")) {
-    //     // Send request to a different backend and don't cache response.
-    //     let cacheOverride = new Fastly.CacheOverride();
-    //     cacheOverride.setPass();
-    //     return Fastly.fetch(req, {
-    //         backend: OTHER_BACKEND_NAME,
-    //         cacheOverride,  
-    //     }).wait();
-    // }
 
     if (method == "GET" && path.startsWith("/gif/")) {
 
@@ -101,12 +72,6 @@ function main(req: Request): Response {
             cacheOverride,
         }).wait();
 
-        // let gifCitiesCall = Fastly.fetch(gifCitiesAPIRequest, {
-        //     backend: GIFCITIES_BACKEND,
-        //     cacheOverride
-        // }).wait();
-
-
         // take the first 3 search results
 
         // send out new requests for those 3 results??
@@ -116,9 +81,6 @@ function main(req: Request): Response {
         // send response to client
 
     }
-
-
-
 
     // Catch all other requests and return a 404.
     return new Response(String.UTF8.encode("The page you requested could not be found"), {

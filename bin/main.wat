@@ -7,8 +7,8 @@
  (type $i32_i32_i32_i32_i32_i32_=>_i32 (func (param i32 i32 i32 i32 i32 i32) (result i32)))
  (type $i32_i32_=>_none (func (param i32 i32)))
  (type $i32_i32_i32_i32_=>_i32 (func (param i32 i32 i32 i32) (result i32)))
- (type $none_=>_i32 (func (result i32)))
  (type $i32_i32_i32_i32_i32_=>_i32 (func (param i32 i32 i32 i32 i32) (result i32)))
+ (type $none_=>_i32 (func (result i32)))
  (type $none_=>_none (func))
  (type $i32_i32_i32_i32_i32_i32_i32_i32_=>_i32 (func (param i32 i32 i32 i32 i32 i32 i32 i32) (result i32)))
  (type $i32_i32_i32_i32_=>_none (func (param i32 i32 i32 i32)))
@@ -59,59 +59,58 @@
  (data (i32.const 2188) ",\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\1c\00\00\00A\00r\00r\00a\00y\00 \00i\00s\00 \00e\00m\00p\00t\00y")
  (data (i32.const 2236) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00/")
  (data (i32.const 2268) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00<\00\00\00I\00 \00a\00m\00 \00h\00a\00v\00i\00n\00g\00 \00a\00 \00r\00e\00a\00l\00 \00g\00r\00e\00a\00t\00 \00t\00i\00m\00e\00!")
- (data (i32.const 2348) ",\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\10\00\00\00/\00b\00a\00c\00k\00e\00n\00d")
- (data (i32.const 2396) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\\\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00h\00a\00n\00d\00l\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t")
- (data (i32.const 2508) "\ac\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\92\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00-\00r\00e\00q\00u\00e\00s\00t\00.\00t\00s")
- (data (i32.const 2684) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\"\00\00\00B\00o\00d\00y\00 \00a\00l\00r\00e\00a\00d\00y\00 \00u\00s\00e\00d")
- (data (i32.const 2748) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00:\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00f\00e\00t\00c\00h\00/\00b\00o\00d\00y\00.\00t\00s")
- (data (i32.const 2828) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00V\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00w\00r\00i\00t\00e\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00U\00R\00I\00 \00t\00o\00 \00t\00h\00e\00 \00h\00o\00s\00t")
- (data (i32.const 2940) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\\\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00w\00r\00i\00t\00e\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00m\00e\00t\00h\00o\00d\00 \00t\00o\00 \00t\00h\00e\00 \00h\00o\00s\00t")
- (data (i32.const 3052) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\\\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00i\00n\00s\00e\00r\00t\00 \00a\00 \00r\00e\00s\00p\00o\00n\00s\00e\00 \00h\00e\00a\00d\00e\00r\00 \00o\00n\00 \00t\00h\00e\00 \00h\00o\00s\00t")
- (data (i32.const 3164) "\1c\00\00\00\01\00\00\00\00\00\00\00\15\00\00\00\08\00\00\00\01")
- (data (i32.const 3196) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00$\00\00\00I\00n\00d\00e\00x\00 \00o\00u\00t\00 \00o\00f\00 \00r\00a\00n\00g\00e")
- (data (i32.const 3260) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00E\00l\00e\00m\00e\00n\00t\00 \00t\00y\00p\00e\00 \00m\00u\00s\00t\00 \00b\00e\00 \00n\00u\00l\00l\00a\00b\00l\00e\00 \00i\00f\00 \00a\00r\00r\00a\00y\00 \00i\00s\00 \00h\00o\00l\00e\00y")
- (data (i32.const 3388) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00@\00\00\00 \00i\00s\00 \00n\00o\00t\00 \00a\00 \00l\00e\00g\00a\00l\00 \00H\00T\00T\00P\00 \00h\00e\00a\00d\00e\00r\00 \00n\00a\00m\00e")
- (data (i32.const 3484) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00@\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00f\00e\00t\00c\00h\00/\00h\00e\00a\00d\00e\00r\00s\00.\00t\00s")
- (data (i32.const 3580) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00$\00\00\00K\00e\00y\00 \00d\00o\00e\00s\00 \00n\00o\00t\00 \00e\00x\00i\00s\00t")
- (data (i32.const 3644) ",\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\16\00\00\00~\00l\00i\00b\00/\00m\00a\00p\00.\00t\00s")
- (data (i32.const 3692) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\04\00\00\00,\00 ")
- (data (i32.const 3724) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00V\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00b\00o\00d\00y\00 \00h\00a\00n\00d\00l\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t")
- (data (i32.const 3836) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00>\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00u\00t\00i\00l\00.\00t\00s")
- (data (i32.const 3932) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00:\00\00\00W\00r\00i\00t\00e\00a\00b\00l\00e\00 \00B\00o\00d\00y\00 \00S\00t\00r\00e\00a\00m\00 \00i\00s\00 \00n\00u\00l\00l")
- (data (i32.const 4012) "\9c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\84\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00w\00r\00i\00t\00e\00 \00t\00o\00 \00t\00h\00e\00 \00b\00o\00d\00y\00 \00o\00n\00 \00t\00h\00e\00 \00h\00o\00s\00t\00,\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00w\00r\00i\00t\00a\00b\00l\00e\00 \00s\00t\00r\00e\00a\00m\00.")
- (data (i32.const 4172) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00|\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00s\00t\00r\00e\00a\00m\00/\00w\00r\00i\00t\00e\00a\00b\00l\00e\00-\00b\00o\00d\00y\00-\00s\00t\00r\00e\00a\00m\00.\00t\00s")
- (data (i32.const 4316) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00@\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00s\00e\00t\00 \00t\00h\00e\00 \00c\00a\00c\00h\00e\00 \00o\00v\00e\00r\00r\00i\00d\00e")
- (data (i32.const 4412) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\004\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00s\00e\00n\00d\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t")
- (data (i32.const 4492) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00<\00\00\00P\00e\00n\00d\00i\00n\00g\00 \00R\00e\00q\00u\00e\00s\00t\00 \00c\00o\00u\00l\00d\00 \00n\00o\00t\00 \00w\00a\00i\00t")
- (data (i32.const 4572) "\bc\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\a2\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00p\00e\00n\00d\00i\00n\00g\00-\00u\00p\00s\00t\00r\00e\00a\00m\00-\00r\00e\00q\00u\00e\00s\00t\00.\00t\00s")
- (data (i32.const 4764) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\n\00\00\00/\00g\00i\00f\00/")
- (data (i32.const 4796) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00(\00\00\00/\00a\00p\00i\00/\00v\001\00/\00g\00i\00f\00s\00e\00a\00r\00c\00h\00?\00q\00=")
- (data (i32.const 4860) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\08\00\00\00H\00o\00s\00t")
- (data (i32.const 4892) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00B\00\00\00 \00i\00s\00 \00n\00o\00t\00 \00a\00 \00l\00e\00g\00a\00l\00 \00H\00T\00T\00P\00 \00h\00e\00a\00d\00e\00r\00 \00v\00a\00l\00u\00e")
- (data (i32.const 4988) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00R\00\00\00T\00h\00e\00 \00p\00a\00g\00e\00 \00y\00o\00u\00 \00r\00e\00q\00u\00e\00s\00t\00e\00d\00 \00c\00o\00u\00l\00d\00 \00n\00o\00t\00 \00b\00e\00 \00f\00o\00u\00n\00d")
- (data (i32.const 5100) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00r\00e\00s\00p\00o\00n\00s\00e\00 \00h\00a\00n\00d\00l\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t")
- (data (i32.const 5228) "\ac\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\9c\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00d\00o\00w\00n\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00d\00o\00w\00n\00s\00t\00r\00e\00a\00m\00-\00r\00e\00s\00p\00o\00n\00s\00e\00.\00t\00s")
- (data (i32.const 5404) "\1c\00\00\00\01\00\00\00\00\00\00\00\15\00\00\00\08\00\00\00\02")
- (data (i32.const 5436) "\1c\00\00\00\01\00\00\00\00\00\00\00\19\00\00\00\08\00\00\00\03")
- (data (i32.const 5468) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00`\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00s\00t\00r\00i\00n\00g\00 \00v\00a\00l\00u\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t\00c\00a\00l\00l")
- (data (i32.const 5596) "\1c\00\00\00\01\00\00\00\00\00\00\00\19\00\00\00\08\00\00\00\04")
- (data (i32.const 5628) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00$\00\00\00~\00l\00i\00b\00/\00t\00y\00p\00e\00d\00a\00r\00r\00a\00y\00.\00t\00s")
- (data (i32.const 5692) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02")
- (data (i32.const 5724) "\1c\00\00\00\01\00\00\00\00\00\00\00\1d\00\00\00\08\00\00\00\05")
- (data (i32.const 5756) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00R\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00c\00l\00o\00s\00u\00r\00e\00 \00r\00e\00t\00u\00r\00n\00e\00d\00 \00e\00r\00r\00o\00r")
- (data (i32.const 5868) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00t\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00a\00b\00i\00/\00m\00u\00l\00t\00i\00-\00v\00a\00l\00u\00e\00-\00h\00o\00s\00t\00c\00a\00l\00l\00.\00t\00s")
- (data (i32.const 6012) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00F\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00b\00u\00f\00f\00e\00r\00 \00t\00o\00o\00 \00s\00m\00a\00l\00l")
- (data (i32.const 6108) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00V\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00s\00e\00p\00a\00r\00a\00t\00o\00r\00 \00b\00y\00t\00e\00 \00n\00o\00t\00 \00f\00o\00u\00n\00d")
- (data (i32.const 6220) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00C\00a\00l\00l\00,\00 \00d\00i\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00h\00e\00a\00d\00e\00r\00 \00n\00a\00m\00e")
- (data (i32.const 6348) "\1c\00\00\00\01\00\00\00\00\00\00\00\1d\00\00\00\08\00\00\00\06")
- (data (i32.const 6380) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\006\00\00\00B\00o\00d\00y\00 \00s\00t\00r\00e\00a\00m\00 \00r\00e\00a\00d\00e\00r\00 \00w\00a\00s\00 \00n\00u\00l\00l")
- (data (i32.const 6460) "\ac\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\94\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00-\00r\00e\00s\00p\00o\00n\00s\00e\00.\00t\00s")
- (data (i32.const 6636) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00Z\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00r\00e\00a\00d\00 \00t\00h\00e\00 \00b\00o\00d\00y\00 \00i\00n\00 \00t\00h\00e\00 \00R\00e\00a\00d\00a\00b\00l\00e\00S\00t\00r\00e\00a\00m")
- (data (i32.const 6748) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00z\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00s\00t\00r\00e\00a\00m\00/\00r\00e\00a\00d\00a\00b\00l\00e\00-\00b\00o\00d\00y\00-\00s\00t\00r\00e\00a\00m\00.\00t\00s")
- (data (i32.const 6892) "\9c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\8c\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00a\00 \00R\00e\00a\00d\00a\00b\00l\00e\00B\00o\00d\00y\00S\00t\00r\00e\00a\00m\00R\00e\00a\00d\00e\00r\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00b\00o\00d\00y\00 \00h\00a\00n\00d\00l\00e\00.")
- (data (i32.const 7052) "\1c\00\00\00\01\00\00\00\00\00\00\00\1d\00\00\00\08\00\00\00\07")
- (data (i32.const 7084) "\1c\00\00\00\01\00\00\00\00\00\00\00\1d\00\00\00\08\00\00\00\08")
- (data (i32.const 7120) "\"\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\04\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"A\00\00\00\00\00\000A\82\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\03\00\00\00 \00\00\00\04\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"\t\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\03\00\00\00 \00\00\00\12\00\00\00 \00\00\00\08\00\00\00 \00\00\00\n\00\00\00 \00\00\00\03\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\n\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00a\00\00\00\02\00\00\00\"A\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00b\00\00\00\00\00\00\00 ")
+ (data (i32.const 2348) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\n\00\00\00/\00g\00i\00f\00/")
+ (data (i32.const 2380) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00$\00\00\00I\00n\00d\00e\00x\00 \00o\00u\00t\00 \00o\00f\00 \00r\00a\00n\00g\00e")
+ (data (i32.const 2444) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00E\00l\00e\00m\00e\00n\00t\00 \00t\00y\00p\00e\00 \00m\00u\00s\00t\00 \00b\00e\00 \00n\00u\00l\00l\00a\00b\00l\00e\00 \00i\00f\00 \00a\00r\00r\00a\00y\00 \00i\00s\00 \00h\00o\00l\00e\00y")
+ (data (i32.const 2572) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00(\00\00\00/\00a\00p\00i\00/\00v\001\00/\00g\00i\00f\00s\00e\00a\00r\00c\00h\00?\00q\00=")
+ (data (i32.const 2636) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\08\00\00\00H\00o\00s\00t")
+ (data (i32.const 2668) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00@\00\00\00 \00i\00s\00 \00n\00o\00t\00 \00a\00 \00l\00e\00g\00a\00l\00 \00H\00T\00T\00P\00 \00h\00e\00a\00d\00e\00r\00 \00n\00a\00m\00e")
+ (data (i32.const 2764) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00@\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00f\00e\00t\00c\00h\00/\00h\00e\00a\00d\00e\00r\00s\00.\00t\00s")
+ (data (i32.const 2860) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00B\00\00\00 \00i\00s\00 \00n\00o\00t\00 \00a\00 \00l\00e\00g\00a\00l\00 \00H\00T\00T\00P\00 \00h\00e\00a\00d\00e\00r\00 \00v\00a\00l\00u\00e")
+ (data (i32.const 2956) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\\\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00h\00a\00n\00d\00l\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t")
+ (data (i32.const 3068) "\ac\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\92\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00-\00r\00e\00q\00u\00e\00s\00t\00.\00t\00s")
+ (data (i32.const 3244) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\"\00\00\00B\00o\00d\00y\00 \00a\00l\00r\00e\00a\00d\00y\00 \00u\00s\00e\00d")
+ (data (i32.const 3308) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00:\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00f\00e\00t\00c\00h\00/\00b\00o\00d\00y\00.\00t\00s")
+ (data (i32.const 3388) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00V\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00w\00r\00i\00t\00e\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00U\00R\00I\00 \00t\00o\00 \00t\00h\00e\00 \00h\00o\00s\00t")
+ (data (i32.const 3500) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\\\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00w\00r\00i\00t\00e\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00m\00e\00t\00h\00o\00d\00 \00t\00o\00 \00t\00h\00e\00 \00h\00o\00s\00t")
+ (data (i32.const 3612) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\\\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00i\00n\00s\00e\00r\00t\00 \00a\00 \00r\00e\00s\00p\00o\00n\00s\00e\00 \00h\00e\00a\00d\00e\00r\00 \00o\00n\00 \00t\00h\00e\00 \00h\00o\00s\00t")
+ (data (i32.const 3724) "\1c\00\00\00\01\00\00\00\00\00\00\00\15\00\00\00\08\00\00\00\01")
+ (data (i32.const 3756) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00$\00\00\00K\00e\00y\00 \00d\00o\00e\00s\00 \00n\00o\00t\00 \00e\00x\00i\00s\00t")
+ (data (i32.const 3820) ",\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\16\00\00\00~\00l\00i\00b\00/\00m\00a\00p\00.\00t\00s")
+ (data (i32.const 3868) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\04\00\00\00,\00 ")
+ (data (i32.const 3900) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00V\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00b\00o\00d\00y\00 \00h\00a\00n\00d\00l\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t")
+ (data (i32.const 4012) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00>\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00u\00t\00i\00l\00.\00t\00s")
+ (data (i32.const 4108) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00:\00\00\00W\00r\00i\00t\00e\00a\00b\00l\00e\00 \00B\00o\00d\00y\00 \00S\00t\00r\00e\00a\00m\00 \00i\00s\00 \00n\00u\00l\00l")
+ (data (i32.const 4188) "\9c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\84\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00w\00r\00i\00t\00e\00 \00t\00o\00 \00t\00h\00e\00 \00b\00o\00d\00y\00 \00o\00n\00 \00t\00h\00e\00 \00h\00o\00s\00t\00,\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00w\00r\00i\00t\00a\00b\00l\00e\00 \00s\00t\00r\00e\00a\00m\00.")
+ (data (i32.const 4348) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00|\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00s\00t\00r\00e\00a\00m\00/\00w\00r\00i\00t\00e\00a\00b\00l\00e\00-\00b\00o\00d\00y\00-\00s\00t\00r\00e\00a\00m\00.\00t\00s")
+ (data (i32.const 4492) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00@\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00s\00e\00t\00 \00t\00h\00e\00 \00c\00a\00c\00h\00e\00 \00o\00v\00e\00r\00r\00i\00d\00e")
+ (data (i32.const 4588) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\004\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00s\00e\00n\00d\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t")
+ (data (i32.const 4668) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00<\00\00\00P\00e\00n\00d\00i\00n\00g\00 \00R\00e\00q\00u\00e\00s\00t\00 \00c\00o\00u\00l\00d\00 \00n\00o\00t\00 \00w\00a\00i\00t")
+ (data (i32.const 4748) "\bc\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\a2\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00p\00e\00n\00d\00i\00n\00g\00-\00u\00p\00s\00t\00r\00e\00a\00m\00-\00r\00e\00q\00u\00e\00s\00t\00.\00t\00s")
+ (data (i32.const 4940) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00R\00\00\00T\00h\00e\00 \00p\00a\00g\00e\00 \00y\00o\00u\00 \00r\00e\00q\00u\00e\00s\00t\00e\00d\00 \00c\00o\00u\00l\00d\00 \00n\00o\00t\00 \00b\00e\00 \00f\00o\00u\00n\00d")
+ (data (i32.const 5052) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00r\00e\00s\00p\00o\00n\00s\00e\00 \00h\00a\00n\00d\00l\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t")
+ (data (i32.const 5180) "\ac\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\9c\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00d\00o\00w\00n\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00d\00o\00w\00n\00s\00t\00r\00e\00a\00m\00-\00r\00e\00s\00p\00o\00n\00s\00e\00.\00t\00s")
+ (data (i32.const 5356) "\1c\00\00\00\01\00\00\00\00\00\00\00\15\00\00\00\08\00\00\00\02")
+ (data (i32.const 5388) "\1c\00\00\00\01\00\00\00\00\00\00\00\19\00\00\00\08\00\00\00\03")
+ (data (i32.const 5420) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00`\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00s\00t\00r\00i\00n\00g\00 \00v\00a\00l\00u\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t\00c\00a\00l\00l")
+ (data (i32.const 5548) "\1c\00\00\00\01\00\00\00\00\00\00\00\19\00\00\00\08\00\00\00\04")
+ (data (i32.const 5580) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00$\00\00\00~\00l\00i\00b\00/\00t\00y\00p\00e\00d\00a\00r\00r\00a\00y\00.\00t\00s")
+ (data (i32.const 5644) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02")
+ (data (i32.const 5676) "\1c\00\00\00\01\00\00\00\00\00\00\00\1d\00\00\00\08\00\00\00\05")
+ (data (i32.const 5708) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00R\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00c\00l\00o\00s\00u\00r\00e\00 \00r\00e\00t\00u\00r\00n\00e\00d\00 \00e\00r\00r\00o\00r")
+ (data (i32.const 5820) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00t\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00a\00b\00i\00/\00m\00u\00l\00t\00i\00-\00v\00a\00l\00u\00e\00-\00h\00o\00s\00t\00c\00a\00l\00l\00.\00t\00s")
+ (data (i32.const 5964) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00F\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00b\00u\00f\00f\00e\00r\00 \00t\00o\00o\00 \00s\00m\00a\00l\00l")
+ (data (i32.const 6060) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00V\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00s\00e\00p\00a\00r\00a\00t\00o\00r\00 \00b\00y\00t\00e\00 \00n\00o\00t\00 \00f\00o\00u\00n\00d")
+ (data (i32.const 6172) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00C\00a\00l\00l\00,\00 \00d\00i\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00h\00e\00a\00d\00e\00r\00 \00n\00a\00m\00e")
+ (data (i32.const 6300) "\1c\00\00\00\01\00\00\00\00\00\00\00\1d\00\00\00\08\00\00\00\06")
+ (data (i32.const 6332) "L\00\00\00\01\00\00\00\00\00\00\00\01\00\00\006\00\00\00B\00o\00d\00y\00 \00s\00t\00r\00e\00a\00m\00 \00r\00e\00a\00d\00e\00r\00 \00w\00a\00s\00 \00n\00u\00l\00l")
+ (data (i32.const 6412) "\ac\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\94\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00u\00p\00s\00t\00r\00e\00a\00m\00-\00r\00e\00s\00p\00o\00n\00s\00e\00.\00t\00s")
+ (data (i32.const 6588) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00Z\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00r\00e\00a\00d\00 \00t\00h\00e\00 \00b\00o\00d\00y\00 \00i\00n\00 \00t\00h\00e\00 \00R\00e\00a\00d\00a\00b\00l\00e\00S\00t\00r\00e\00a\00m")
+ (data (i32.const 6700) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00z\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00s\00t\00r\00e\00a\00m\00/\00r\00e\00a\00d\00a\00b\00l\00e\00-\00b\00o\00d\00y\00-\00s\00t\00r\00e\00a\00m\00.\00t\00s")
+ (data (i32.const 6844) "\9c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\8c\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00a\00 \00R\00e\00a\00d\00a\00b\00l\00e\00B\00o\00d\00y\00S\00t\00r\00e\00a\00m\00R\00e\00a\00d\00e\00r\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00b\00o\00d\00y\00 \00h\00a\00n\00d\00l\00e\00.")
+ (data (i32.const 7004) "\1c\00\00\00\01\00\00\00\00\00\00\00\1d\00\00\00\08\00\00\00\07")
+ (data (i32.const 7036) "\1c\00\00\00\01\00\00\00\00\00\00\00\1d\00\00\00\08\00\00\00\08")
+ (data (i32.const 7072) "\"\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\04\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"A\00\00\00\00\00\000A\82\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\03\00\00\00 \00\00\00\04\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"\t\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\03\00\00\00 \00\00\00\12\00\00\00 \00\00\00\08\00\00\00 \00\00\00\n\00\00\00 \00\00\00\03\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\n\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00a\00\00\00\02\00\00\00\"A\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00b\00\00\00\00\00\00\00 ")
  (table $0 9 funcref)
  (elem (i32.const 1) $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#_writeRequestHeadersToHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-response/FastlyDownstreamResponse#_writeResponseHeadersToHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-request/FastlyDownstreamRequest#_getMethodFromHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-request/FastlyDownstreamRequest#_getUrlFromHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-request/FastlyDownstreamRequest#_getHeadersFromHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-request/FastlyDownstreamRequest#_getHeadersFromHandle~anonymous|1 $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#_getHeadersFromHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#_getHeadersFromHandle~anonymous|1)
  (global $~lib/rt/tlsf/ROOT (mut i32) (i32.const 0))
@@ -119,7 +118,7 @@
  (global $~argumentsLength (mut i32) (i32.const 0))
  (global $assembly/index/resp (mut i32) (i32.const 0))
  (global $~started (mut i32) (i32.const 0))
- (global $~lib/rt/__rtti_base i32 (i32.const 7120))
+ (global $~lib/rt/__rtti_base i32 (i32.const 7072))
  (export "_start" (func $~start))
  (export "memory" (memory $0))
  (export "__new" (func $~lib/rt/pure/__new))
@@ -130,7 +129,7 @@
  (func $~lib/rt/pure/__retain (param $0 i32) (result i32)
   (local $1 i32)
   local.get $0
-  i32.const 7396
+  i32.const 7348
   i32.gt_u
   if
    local.get $0
@@ -364,7 +363,7 @@
  )
  (func $~lib/rt/pure/__release (param $0 i32)
   local.get $0
-  i32.const 7396
+  i32.const 7348
   i32.gt_u
   if
    local.get $0
@@ -906,10 +905,10 @@
   if
    unreachable
   end
-  i32.const 7408
+  i32.const 7360
   i32.const 0
   i32.store
-  i32.const 8976
+  i32.const 8928
   i32.const 0
   i32.store
   loop $for-loop|0
@@ -920,7 +919,7 @@
     local.get $1
     i32.const 2
     i32.shl
-    i32.const 7408
+    i32.const 7360
     i32.add
     i32.const 0
     i32.store offset=4
@@ -938,7 +937,7 @@
       i32.add
       i32.const 2
       i32.shl
-      i32.const 7408
+      i32.const 7360
       i32.add
       i32.const 0
       i32.store offset=96
@@ -956,13 +955,13 @@
     br $for-loop|0
    end
   end
-  i32.const 7408
-  i32.const 8980
+  i32.const 7360
+  i32.const 8932
   memory.size
   i32.const 16
   i32.shl
   call $~lib/rt/tlsf/addMemory
-  i32.const 7408
+  i32.const 7360
   global.set $~lib/rt/tlsf/ROOT
  )
  (func $~lib/rt/tlsf/prepareSize (param $0 i32) (result i32)
@@ -1511,7 +1510,7 @@
   i32.and
   call $~lib/memory/memory.copy
   local.get $1
-  i32.const 7396
+  i32.const 7348
   i32.ge_u
   if
    local.get $0
@@ -1553,7 +1552,7 @@
   i32.add
   local.set $2
   local.get $0
-  i32.const 7396
+  i32.const 7348
   i32.lt_u
   if
    global.get $~lib/rt/tlsf/ROOT
@@ -2140,7 +2139,7 @@
  )
  (func $~lib/rt/tlsf/__free (param $0 i32)
   local.get $0
-  i32.const 7396
+  i32.const 7348
   i32.lt_u
   if
    return
@@ -3203,330 +3202,13 @@
   local.get $1
   call $~lib/rt/pure/__release
  )
- (func $~lib/@fastly/as-compute/fastly/cache-override/CacheOverride#constructor (result i32)
-  (local $0 i32)
-  i32.const 16
-  i32.const 14
-  call $~lib/rt/pure/__new
-  call $~lib/rt/pure/__retain
-  local.tee $0
-  i32.const 0
-  i32.store8
-  local.get $0
-  i32.const 0
-  i32.store8 offset=1
-  local.get $0
-  i32.const 0
-  i32.store offset=4
-  local.get $0
-  i32.const 0
-  i32.store8 offset=8
-  local.get $0
-  i32.const 0
-  i32.store offset=12
-  local.get $0
- )
- (func $~lib/@fastly/as-compute/fastly/fastly/FetchInit#constructor (result i32)
-  (local $0 i32)
-  i32.const 8
-  i32.const 15
-  call $~lib/rt/pure/__new
-  call $~lib/rt/pure/__retain
-  local.tee $0
-  i32.const 0
-  i32.store
-  local.get $0
-  i32.const 0
-  i32.store offset=4
-  local.get $0
- )
- (func $~lib/@fastly/as-fetch/body/Body#arrayBuffer (param $0 i32) (result i32)
-  local.get $0
-  i32.load8_u offset=4
-  if
-   i32.const 2704
-   i32.const 2768
-   i32.const 70
-   i32.const 7
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $0
-  i32.const 1
-  i32.store8 offset=4
-  local.get $0
-  i32.load
-  call $~lib/rt/pure/__retain
- )
- (func $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit#constructor (param $0 i32) (result i32)
-  local.get $0
-  if (result i32)
-   local.get $0
-  else
-   i32.const 16
-   i32.const 18
-   call $~lib/rt/pure/__new
-   call $~lib/rt/pure/__retain
-  end
-  call $~lib/@fastly/as-fetch/request/RequestInit#constructor
-  local.tee $0
-  i32.const 0
-  i32.store offset=12
-  local.get $0
- )
- (func $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#_writeRequestHeadersToHandle~anonymous|0 (param $0 i32) (param $1 i32) (param $2 i32)
-  local.get $1
-  call $~lib/rt/pure/__retain
-  local.set $1
-  local.get $2
-  call $~lib/rt/pure/__retain
-  local.set $2
-  local.get $0
-  local.get $1
-  local.get $1
-  i32.const 20
-  i32.sub
-  i32.load offset=16
-  local.get $2
-  local.get $2
-  i32.const 20
-  i32.sub
-  i32.load offset=16
-  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_header_insert
-  if
-   i32.const 3072
-   i32.const 2528
-   i32.const 115
-   i32.const 11
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $1
-  call $~lib/rt/pure/__release
-  local.get $2
-  call $~lib/rt/pure/__release
- )
- (func $~lib/array/Array<~lib/string/String>#constructor (param $0 i32) (result i32)
-  (local $1 i32)
-  (local $2 i32)
-  (local $3 i32)
-  (local $4 i32)
-  (local $5 i32)
-  i32.const 16
-  i32.const 6
-  call $~lib/rt/pure/__new
-  call $~lib/rt/pure/__retain
-  local.tee $5
-  i32.const 0
-  i32.store
-  local.get $5
-  i32.const 0
-  i32.store offset=4
-  local.get $5
-  i32.const 0
-  i32.store offset=8
-  local.get $5
-  i32.const 0
-  i32.store offset=12
-  local.get $0
-  i32.const 268435455
-  i32.gt_u
-  if
-   i32.const 1344
-   i32.const 2160
-   i32.const 57
-   i32.const 60
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $0
-  i32.const 2
-  i32.shl
-  local.tee $4
-  i32.const 0
-  call $~lib/rt/pure/__new
-  local.tee $2
-  local.get $4
-  call $~lib/memory/memory.fill
-  local.get $2
-  local.set $1
-  local.get $2
-  local.get $5
-  i32.load
-  local.tee $3
-  i32.ne
-  if
-   local.get $1
-   call $~lib/rt/pure/__retain
-   local.set $1
-   local.get $3
-   call $~lib/rt/pure/__release
-  end
-  local.get $5
-  local.get $1
-  i32.store
-  local.get $5
-  local.get $2
-  i32.store offset=4
-  local.get $5
-  local.get $4
-  i32.store offset=8
-  local.get $5
-  local.get $0
-  i32.store offset=12
-  local.get $5
- )
- (func $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#keys (param $0 i32) (result i32)
-  (local $1 i32)
-  (local $2 i32)
-  (local $3 i32)
-  (local $4 i32)
-  (local $5 i32)
-  (local $6 i32)
-  (local $7 i32)
-  (local $8 i32)
-  local.get $0
-  i32.load offset=8
-  local.set $5
-  local.get $0
-  i32.load offset=16
-  local.tee $6
-  call $~lib/array/Array<~lib/string/String>#constructor
-  local.set $0
-  loop $for-loop|0
-   local.get $3
-   local.get $6
-   i32.lt_s
-   if
-    local.get $5
-    local.get $3
-    i32.const 12
-    i32.mul
-    i32.add
-    local.tee $2
-    i32.load offset=8
-    i32.const 1
-    i32.and
-    i32.eqz
-    if
-     local.get $2
-     i32.load
-     call $~lib/rt/pure/__retain
-     local.set $2
-     local.get $1
-     local.get $0
-     i32.load offset=12
-     i32.ge_u
-     if
-      local.get $1
-      i32.const 0
-      i32.lt_s
-      if
-       i32.const 3216
-       i32.const 2160
-       i32.const 120
-       i32.const 22
-       call $~lib/wasi/index/abort
-       unreachable
-      end
-      local.get $0
-      local.get $1
-      i32.const 1
-      i32.add
-      local.tee $4
-      i32.const 2
-      call $~lib/array/ensureSize
-      local.get $0
-      local.get $4
-      i32.store offset=12
-     end
-     local.get $2
-     call $~lib/rt/pure/__retain
-     local.tee $4
-     local.get $0
-     i32.load offset=4
-     local.get $1
-     i32.const 2
-     i32.shl
-     i32.add
-     local.tee $7
-     i32.load
-     local.tee $8
-     i32.ne
-     if
-      local.get $7
-      local.get $4
-      call $~lib/rt/pure/__retain
-      i32.store
-      local.get $8
-      call $~lib/rt/pure/__release
-     end
-     local.get $4
-     call $~lib/rt/pure/__release
-     local.get $2
-     call $~lib/rt/pure/__release
-     local.get $1
-     i32.const 1
-     i32.add
-     local.set $1
-    end
-    local.get $3
-    i32.const 1
-    i32.add
-    local.set $3
-    br $for-loop|0
-   end
-  end
-  local.get $1
-  local.get $0
-  i32.load offset=12
-  local.tee $2
-  i32.lt_s
-  if
-   local.get $0
-   i32.load offset=4
-   local.tee $4
-   local.get $1
-   i32.const 2
-   i32.shl
-   i32.add
-   local.set $3
-   local.get $4
-   local.get $2
-   i32.const 2
-   i32.shl
-   i32.add
-   local.set $2
-   loop $do-continue|0
-    local.get $3
-    i32.load
-    call $~lib/rt/pure/__release
-    local.get $3
-    i32.const 4
-    i32.add
-    local.tee $3
-    local.get $2
-    i32.lt_u
-    br_if $do-continue|0
-   end
-  else
-   local.get $0
-   local.get $1
-   i32.const 2
-   call $~lib/array/ensureSize
-  end
-  local.get $0
-  local.get $1
-  i32.store offset=12
-  local.get $0
- )
  (func $~lib/array/Array<~lib/string/String>#__get (param $0 i32) (param $1 i32) (result i32)
   local.get $1
   local.get $0
   i32.load offset=12
   i32.ge_u
   if
-   i32.const 3216
+   i32.const 2400
    i32.const 2160
    i32.const 104
    i32.const 42
@@ -3544,7 +3226,7 @@
   local.tee $0
   i32.eqz
   if
-   i32.const 3280
+   i32.const 2464
    i32.const 2160
    i32.const 108
    i32.const 40
@@ -3587,9 +3269,9 @@
   i32.eqz
   if
    local.get $1
-   i32.const 3408
+   i32.const 2688
    call $~lib/string/String.__concat
-   i32.const 3504
+   i32.const 2784
    i32.const 176
    i32.const 7
    call $~lib/wasi/index/abort
@@ -3680,9 +3362,9 @@
     i32.eqz
     if
      local.get $1
-     i32.const 3408
+     i32.const 2688
      call $~lib/string/String.__concat
-     i32.const 3504
+     i32.const 2784
      i32.const 223
      i32.const 7
      call $~lib/wasi/index/abort
@@ -3777,6 +3459,150 @@
   call $~lib/rt/pure/__release
   local.get $0
  )
+ (func $~lib/@fastly/as-fetch/headers/Headers#_validateHeaderValue (param $0 i32)
+  (local $1 i32)
+  (local $2 i32)
+  local.get $0
+  call $~lib/rt/pure/__retain
+  local.tee $0
+  i32.const 20
+  i32.sub
+  i32.load offset=16
+  i32.const 1
+  i32.shr_u
+  i32.eqz
+  if
+   local.get $0
+   i32.const 2880
+   call $~lib/string/String.__concat
+   i32.const 2784
+   i32.const 232
+   i32.const 7
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  loop $for-loop|0
+   local.get $1
+   local.get $0
+   i32.const 20
+   i32.sub
+   i32.load offset=16
+   i32.const 1
+   i32.shr_u
+   i32.lt_s
+   if
+    i32.const 1
+    local.get $0
+    local.get $1
+    call $~lib/string/String#charCodeAt
+    local.tee $2
+    i32.const 9
+    i32.eq
+    local.get $2
+    i32.const 127
+    i32.ne
+    i32.const 0
+    local.get $2
+    i32.const 255
+    i32.le_s
+    i32.const 0
+    local.get $2
+    i32.const 31
+    i32.gt_s
+    select
+    select
+    select
+    i32.eqz
+    if
+     local.get $0
+     i32.const 2880
+     call $~lib/string/String.__concat
+     i32.const 2784
+     i32.const 252
+     i32.const 7
+     call $~lib/wasi/index/abort
+     unreachable
+    end
+    local.get $1
+    i32.const 1
+    i32.add
+    local.set $1
+    br $for-loop|0
+   end
+  end
+  local.get $0
+  call $~lib/rt/pure/__release
+ )
+ (func $~lib/array/Array<~lib/string/String>#constructor (param $0 i32) (result i32)
+  (local $1 i32)
+  (local $2 i32)
+  (local $3 i32)
+  (local $4 i32)
+  (local $5 i32)
+  i32.const 16
+  i32.const 6
+  call $~lib/rt/pure/__new
+  call $~lib/rt/pure/__retain
+  local.tee $5
+  i32.const 0
+  i32.store
+  local.get $5
+  i32.const 0
+  i32.store offset=4
+  local.get $5
+  i32.const 0
+  i32.store offset=8
+  local.get $5
+  i32.const 0
+  i32.store offset=12
+  local.get $0
+  i32.const 268435455
+  i32.gt_u
+  if
+   i32.const 1344
+   i32.const 2160
+   i32.const 57
+   i32.const 60
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $0
+  i32.const 2
+  i32.shl
+  local.tee $4
+  i32.const 0
+  call $~lib/rt/pure/__new
+  local.tee $2
+  local.get $4
+  call $~lib/memory/memory.fill
+  local.get $2
+  local.set $1
+  local.get $2
+  local.get $5
+  i32.load
+  local.tee $3
+  i32.ne
+  if
+   local.get $1
+   call $~lib/rt/pure/__retain
+   local.set $1
+   local.get $3
+   call $~lib/rt/pure/__release
+  end
+  local.get $5
+  local.get $1
+  i32.store
+  local.get $5
+  local.get $2
+  i32.store offset=4
+  local.get $5
+  local.get $4
+  i32.store offset=8
+  local.get $5
+  local.get $0
+  i32.store offset=12
+  local.get $5
+ )
  (func $~lib/util/hash/hashStr (param $0 i32) (result i32)
   (local $1 i32)
   (local $2 i32)
@@ -3869,898 +3695,6 @@
   local.get $1
   call $~lib/rt/pure/__release
   i32.const 0
- )
- (func $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#has (param $0 i32) (param $1 i32) (result i32)
-  (local $2 i32)
-  (local $3 i32)
-  local.get $1
-  call $~lib/rt/pure/__retain
-  local.tee $1
-  call $~lib/rt/pure/__retain
-  local.tee $2
-  call $~lib/util/hash/hashStr
-  local.set $3
-  local.get $2
-  call $~lib/rt/pure/__release
-  local.get $0
-  local.get $1
-  local.get $3
-  call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#find
-  i32.const 0
-  i32.ne
-  local.get $1
-  call $~lib/rt/pure/__release
- )
- (func $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#get (param $0 i32) (param $1 i32) (result i32)
-  (local $2 i32)
-  (local $3 i32)
-  local.get $1
-  call $~lib/rt/pure/__retain
-  local.tee $1
-  call $~lib/rt/pure/__retain
-  local.tee $2
-  call $~lib/util/hash/hashStr
-  local.set $3
-  local.get $2
-  call $~lib/rt/pure/__release
-  local.get $0
-  local.get $1
-  local.get $3
-  call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#find
-  local.tee $0
-  i32.eqz
-  if
-   i32.const 3600
-   i32.const 3664
-   i32.const 105
-   i32.const 17
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $0
-  i32.load offset=4
-  call $~lib/rt/pure/__retain
-  local.get $1
-  call $~lib/rt/pure/__release
- )
- (func $~lib/@fastly/as-compute/util/writeHeadersToHandle (param $0 i32) (param $1 i32) (param $2 i32)
-  (local $3 i32)
-  (local $4 i32)
-  (local $5 i32)
-  (local $6 i32)
-  (local $7 i32)
-  (local $8 i32)
-  (local $9 i32)
-  local.get $0
-  call $~lib/rt/pure/__retain
-  local.set $3
-  local.get $2
-  call $~lib/rt/pure/__retain
-  local.set $6
-  local.get $3
-  i32.load
-  call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#keys
-  local.set $4
-  loop $for-loop|0
-   local.get $5
-   local.get $4
-   i32.load offset=12
-   i32.lt_s
-   if
-    local.get $4
-    local.get $5
-    call $~lib/array/Array<~lib/string/String>#__get
-    local.tee $7
-    call $~lib/string/String.UTF8.encode
-    local.set $8
-    local.get $7
-    call $~lib/rt/pure/__retain
-    local.tee $0
-    call $~lib/@fastly/as-fetch/headers/Headers#_validateHeaderName
-    local.get $0
-    call $~lib/@fastly/as-fetch/headers/Headers#_headerNameToLowercase
-    local.set $2
-    local.get $0
-    call $~lib/rt/pure/__release
-    block $__inlined_func$~lib/@fastly/as-fetch/headers/Headers#get
-     local.get $3
-     i32.load
-     local.get $2
-     call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#has
-     if
-      local.get $3
-      i32.load
-      local.get $2
-      call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#get
-      local.tee $9
-      i32.const 3712
-      call $~lib/array/Array<~lib/string/String>#join
-      local.set $0
-      local.get $9
-      call $~lib/rt/pure/__release
-      br $__inlined_func$~lib/@fastly/as-fetch/headers/Headers#get
-     end
-     i32.const 0
-     local.set $0
-    end
-    local.get $2
-    call $~lib/rt/pure/__release
-    local.get $0
-    call $~lib/string/String.UTF8.encode
-    local.set $2
-    i32.const 3
-    global.set $~argumentsLength
-    local.get $1
-    local.get $8
-    local.get $2
-    local.get $6
-    i32.load
-    call_indirect (type $i32_i32_i32_=>_none)
-    local.get $7
-    call $~lib/rt/pure/__release
-    local.get $8
-    call $~lib/rt/pure/__release
-    local.get $0
-    call $~lib/rt/pure/__release
-    local.get $2
-    call $~lib/rt/pure/__release
-    local.get $5
-    i32.const 1
-    i32.add
-    local.set $5
-    br $for-loop|0
-   end
-  end
-  local.get $4
-  call $~lib/rt/pure/__release
-  local.get $3
-  call $~lib/rt/pure/__release
-  local.get $6
-  call $~lib/rt/pure/__release
- )
- (func $~lib/@fastly/as-compute/util/createBodyHandleAndGetWriteableBodyStream (param $0 i32) (result i32)
-  (local $1 i32)
-  (local $2 i32)
-  (local $3 i32)
-  (local $4 i32)
-  (local $5 i32)
-  (local $6 i32)
-  (local $7 i32)
-  local.get $0
-  call $~lib/rt/pure/__retain
-  local.set $5
-  i32.const 4
-  call $~lib/rt/tlsf/__alloc
-  local.tee $0
-  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_body_new
-  if
-   i32.const 3744
-   i32.const 3856
-   i32.const 97
-   i32.const 5
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $0
-  i32.load
-  local.set $1
-  local.get $0
-  call $~lib/rt/tlsf/__free
-  i32.const 5
-  i32.const 22
-  call $~lib/rt/pure/__new
-  call $~lib/rt/pure/__retain
-  local.tee $0
-  i32.const 0
-  i32.store
-  local.get $0
-  i32.const 0
-  i32.store8 offset=4
-  local.get $0
-  local.get $1
-  i32.store
-  local.get $0
-  i32.const 0
-  i32.store8 offset=4
-  local.get $5
-  call $~lib/@fastly/as-fetch/util/isNull<~lib/arraybuffer/ArrayBuffer|null>
-  if
-   local.get $5
-   call $~lib/rt/pure/__release
-   local.get $0
-   return
-  end
-  local.get $5
-  call $~lib/rt/pure/__retain
-  local.set $6
-  block $__inlined_func$~lib/@fastly/as-compute/fastly/stream/writeable-body-stream/WriteableBodyStream#getWriter
-   local.get $0
-   local.tee $1
-   i32.load8_u offset=4
-   if
-    i32.const 0
-    local.set $0
-    br $__inlined_func$~lib/@fastly/as-compute/fastly/stream/writeable-body-stream/WriteableBodyStream#getWriter
-   end
-   local.get $1
-   i32.load
-   local.set $3
-   i32.const 9
-   i32.const 23
-   call $~lib/rt/pure/__new
-   call $~lib/rt/pure/__retain
-   local.tee $0
-   i32.const 0
-   i32.store
-   local.get $0
-   i32.const 0
-   i32.store offset=4
-   local.get $0
-   i32.const 0
-   i32.store8 offset=8
-   local.get $1
-   call $~lib/rt/pure/__retain
-   local.tee $4
-   local.tee $2
-   local.get $0
-   i32.load
-   local.tee $7
-   i32.ne
-   if
-    local.get $2
-    call $~lib/rt/pure/__retain
-    local.set $2
-    local.get $7
-    call $~lib/rt/pure/__release
-   end
-   local.get $0
-   local.get $2
-   i32.store
-   local.get $0
-   local.get $3
-   i32.store offset=4
-   local.get $0
-   i32.const 0
-   i32.store8 offset=8
-   local.get $4
-   call $~lib/rt/pure/__release
-   local.get $1
-   i32.const 1
-   i32.store8 offset=4
-  end
-  local.get $0
-  local.tee $2
-  i32.eqz
-  if
-   i32.const 3952
-   i32.const 3856
-   i32.const 115
-   i32.const 5
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $2
-  call $~lib/rt/pure/__retain
-  local.set $0
-  local.get $6
-  call $~lib/rt/pure/__retain
-  local.set $3
-  local.get $0
-  i32.load8_u offset=8
-  i32.eqz
-  if
-   i32.const 4
-   call $~lib/rt/tlsf/__alloc
-   local.set $4
-   local.get $0
-   i32.load offset=4
-   local.get $3
-   local.get $3
-   i32.const 20
-   i32.sub
-   i32.load offset=16
-   i32.const 0
-   local.get $4
-   call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_body_write
-   if
-    i32.const 4032
-    i32.const 4192
-    i32.const 138
-    i32.const 7
-    call $~lib/wasi/index/abort
-    unreachable
-   end
-   local.get $4
-   i32.load
-   drop
-   local.get $4
-   call $~lib/rt/tlsf/__free
-  end
-  local.get $3
-  call $~lib/rt/pure/__release
-  local.get $0
-  i32.load
-  i32.const 0
-  i32.store8 offset=4
-  local.get $0
-  i32.const 1
-  i32.store8 offset=8
-  local.get $6
-  call $~lib/rt/pure/__release
-  local.get $2
-  call $~lib/rt/pure/__release
-  local.get $0
-  call $~lib/rt/pure/__release
-  local.get $5
-  call $~lib/rt/pure/__release
-  local.get $1
- )
- (func $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#send (param $0 i32) (param $1 i32) (result i32)
-  (local $2 i32)
-  (local $3 i32)
-  (local $4 i32)
-  (local $5 i32)
-  (local $6 i32)
-  (local $7 i32)
-  (local $8 i32)
-  (local $9 i32)
-  (local $10 i32)
-  (local $11 i32)
-  (local $12 i32)
-  local.get $1
-  call $~lib/rt/pure/__retain
-  local.set $6
-  i32.const 4
-  call $~lib/rt/tlsf/__alloc
-  local.set $1
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
-  local.tee $3
-  call $~lib/string/String.UTF8.encode
-  local.tee $2
-  i32.const 20
-  i32.sub
-  i32.load offset=16
-  local.set $4
-  local.get $0
-  i32.load offset=24
-  local.get $2
-  local.get $4
-  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_uri_set
-  if
-   i32.const 2848
-   i32.const 2528
-   i32.const 70
-   i32.const 7
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $1
-  i32.load
-  drop
-  local.get $1
-  call $~lib/rt/tlsf/__free
-  local.get $3
-  call $~lib/rt/pure/__release
-  local.get $2
-  call $~lib/rt/pure/__release
-  i32.const 4
-  call $~lib/rt/tlsf/__alloc
-  local.set $1
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
-  local.tee $3
-  call $~lib/string/String.UTF8.encode
-  local.tee $2
-  i32.const 20
-  i32.sub
-  i32.load offset=16
-  local.set $4
-  local.get $0
-  i32.load offset=24
-  local.get $2
-  local.get $4
-  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_method_set
-  if
-   i32.const 2960
-   i32.const 2528
-   i32.const 89
-   i32.const 7
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $1
-  i32.load
-  drop
-  local.get $1
-  call $~lib/rt/tlsf/__free
-  local.get $3
-  call $~lib/rt/pure/__release
-  local.get $2
-  call $~lib/rt/pure/__release
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
-  local.tee $1
-  local.get $0
-  i32.load offset=24
-  i32.const 3184
-  call $~lib/@fastly/as-compute/util/writeHeadersToHandle
-  local.get $1
-  call $~lib/rt/pure/__release
-  local.get $0
-  i32.load
-  call $~lib/@fastly/as-compute/util/createBodyHandleAndGetWriteableBodyStream
-  local.set $9
-  local.get $0
-  i32.load offset=28
-  if
-   local.get $0
-   i32.load offset=28
-   call $~lib/rt/pure/__retain
-   local.tee $1
-   i32.load8_u
-   i32.eqz
-   i32.eqz
-   local.tee $2
-   i32.const 2
-   i32.or
-   local.get $2
-   local.get $1
-   i32.load8_u offset=1
-   select
-   local.set $2
-   local.get $0
-   i32.load offset=24
-   local.get $2
-   i32.const 4
-   i32.or
-   local.get $2
-   local.get $1
-   i32.load8_u offset=8
-   select
-   local.get $1
-   i32.load offset=4
-   local.get $1
-   i32.load offset=12
-   call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_cache_override_set
-   if
-    i32.const 4336
-    i32.const 2528
-    i32.const 142
-    i32.const 9
-    call $~lib/wasi/index/abort
-    unreachable
-   end
-   local.get $1
-   call $~lib/rt/pure/__release
-  end
-  local.get $6
-  call $~lib/string/String.UTF8.encode
-  local.set $4
-  i32.const 4
-  call $~lib/rt/tlsf/__alloc
-  local.set $1
-  local.get $0
-  i32.load offset=24
-  local.get $9
-  i32.load
-  local.get $4
-  local.get $4
-  i32.const 20
-  i32.sub
-  i32.load offset=16
-  local.get $1
-  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_send_async
-  if
-   i32.const 4432
-   i32.const 2528
-   i32.const 159
-   i32.const 7
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $1
-  i32.load
-  local.set $7
-  local.get $1
-  call $~lib/rt/tlsf/__free
-  i32.const 20
-  i32.const 17
-  call $~lib/rt/pure/__new
-  call $~lib/rt/pure/__retain
-  call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit#constructor
-  local.tee $2
-  i32.const 0
-  i32.store offset=16
-  local.get $2
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
-  local.tee $10
-  call $~lib/rt/pure/__retain
-  i32.store offset=16
-  local.get $2
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
-  local.tee $11
-  call $~lib/rt/pure/__retain
-  i32.store
-  local.get $2
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
-  local.tee $12
-  call $~lib/rt/pure/__retain
-  i32.store offset=4
-  local.get $2
-  i32.const 0
-  i32.store offset=8
-  local.get $2
-  i32.const 0
-  i32.store offset=12
-  i32.const 32
-  i32.const 16
-  call $~lib/rt/pure/__new
-  call $~lib/rt/pure/__retain
-  local.tee $0
-  i32.const 0
-  i32.store offset=24
-  local.get $0
-  i32.const 0
-  i32.store offset=28
-  local.get $6
-  call $~lib/rt/pure/__retain
-  local.set $1
-  local.get $2
-  call $~lib/rt/pure/__retain
-  local.tee $8
-  i32.load offset=16
-  local.set $5
-  i32.const 0
-  call $~lib/@fastly/as-fetch/request/RequestInit#constructor
-  local.tee $3
-  local.get $8
-  i32.load
-  call $~lib/rt/pure/__retain
-  i32.store
-  local.get $3
-  local.get $8
-  i32.load offset=4
-  call $~lib/rt/pure/__retain
-  i32.store offset=4
-  local.get $3
-  i32.const 0
-  i32.store offset=8
-  local.get $0
-  local.get $5
-  local.get $3
-  call $~lib/@fastly/as-fetch/request/Request#constructor
-  local.tee $5
-  local.get $7
-  i32.store offset=24
-  local.get $1
-  local.tee $0
-  local.get $5
-  i32.load offset=28
-  local.tee $7
-  i32.ne
-  if
-   local.get $0
-   call $~lib/rt/pure/__retain
-   local.set $0
-   local.get $7
-   call $~lib/rt/pure/__release
-  end
-  local.get $5
-  local.get $0
-  i32.store offset=28
-  local.get $3
-  call $~lib/rt/pure/__release
-  local.get $1
-  call $~lib/rt/pure/__release
-  local.get $8
-  call $~lib/rt/pure/__release
-  local.get $9
-  call $~lib/rt/pure/__release
-  local.get $4
-  call $~lib/rt/pure/__release
-  local.get $2
-  call $~lib/rt/pure/__release
-  local.get $10
-  call $~lib/rt/pure/__release
-  local.get $11
-  call $~lib/rt/pure/__release
-  local.get $12
-  call $~lib/rt/pure/__release
-  local.get $6
-  call $~lib/rt/pure/__release
-  local.get $5
- )
- (func $~lib/@fastly/as-compute/fastly/fastly/fetch (param $0 i32) (param $1 i32) (result i32)
-  (local $2 i32)
-  (local $3 i32)
-  (local $4 i32)
-  (local $5 i32)
-  (local $6 i32)
-  (local $7 i32)
-  (local $8 i32)
-  (local $9 i32)
-  (local $10 i32)
-  local.get $0
-  call $~lib/rt/pure/__retain
-  local.set $0
-  local.get $1
-  call $~lib/rt/pure/__retain
-  local.set $4
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
-  local.set $6
-  i32.const 0
-  call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit#constructor
-  local.tee $1
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
-  local.tee $8
-  call $~lib/rt/pure/__retain
-  i32.store
-  local.get $1
-  local.get $0
-  call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
-  local.tee $9
-  call $~lib/rt/pure/__retain
-  i32.store offset=4
-  local.get $1
-  local.get $0
-  call $~lib/@fastly/as-fetch/body/Body#arrayBuffer@virtual
-  i32.store offset=8
-  local.get $1
-  local.get $4
-  i32.load offset=4
-  call $~lib/rt/pure/__retain
-  i32.store offset=12
-  i32.const 32
-  i32.const 20
-  call $~lib/rt/pure/__new
-  call $~lib/rt/pure/__retain
-  local.tee $2
-  i32.const 0
-  i32.store offset=24
-  local.get $2
-  i32.const 0
-  i32.store offset=28
-  local.get $2
-  local.get $6
-  call $~lib/rt/pure/__retain
-  local.tee $10
-  local.get $1
-  call $~lib/rt/pure/__retain
-  local.tee $7
-  call $~lib/@fastly/as-fetch/request/Request#constructor
-  local.set $2
-  i32.const 4
-  call $~lib/rt/tlsf/__alloc
-  local.tee $3
-  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_new
-  if
-   i32.const 2416
-   i32.const 2528
-   i32.const 49
-   i32.const 7
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $3
-  i32.load
-  local.set $5
-  local.get $3
-  call $~lib/rt/tlsf/__free
-  local.get $2
-  local.get $5
-  i32.store offset=24
-  local.get $7
-  i32.load offset=12
-  local.tee $3
-  local.get $2
-  i32.load offset=28
-  local.tee $5
-  i32.ne
-  if
-   local.get $3
-   call $~lib/rt/pure/__retain
-   local.set $3
-   local.get $5
-   call $~lib/rt/pure/__release
-  end
-  local.get $2
-  local.get $3
-  i32.store offset=28
-  local.get $10
-  call $~lib/rt/pure/__release
-  local.get $7
-  call $~lib/rt/pure/__release
-  local.get $2
-  local.get $4
-  i32.load
-  call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#send
-  local.get $6
-  call $~lib/rt/pure/__release
-  local.get $1
-  call $~lib/rt/pure/__release
-  local.get $8
-  call $~lib/rt/pure/__release
-  local.get $9
-  call $~lib/rt/pure/__release
-  local.get $2
-  call $~lib/rt/pure/__release
-  local.get $0
-  call $~lib/rt/pure/__release
-  local.get $4
-  call $~lib/rt/pure/__release
- )
- (func $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-pending-upstream-request/FastlyPendingUpstreamRequest#wait (param $0 i32) (result i32)
-  (local $1 i32)
-  (local $2 i32)
-  (local $3 i32)
-  (local $4 i32)
-  i32.const 4
-  call $~lib/rt/tlsf/__alloc
-  local.set $1
-  i32.const 4
-  call $~lib/rt/tlsf/__alloc
-  local.set $2
-  local.get $0
-  i32.load offset=24
-  local.get $1
-  local.get $2
-  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_pending_req_wait
-  if
-   i32.const 4512
-   i32.const 4592
-   i32.const 57
-   i32.const 7
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  local.get $1
-  i32.load
-  local.set $3
-  local.get $2
-  i32.load
-  local.set $4
-  local.get $1
-  call $~lib/rt/tlsf/__free
-  local.get $2
-  call $~lib/rt/tlsf/__free
-  local.get $0
-  i32.load offset=8
-  i32.const 35
-  i32.const 19
-  call $~lib/rt/pure/__new
-  call $~lib/rt/pure/__retain
-  local.tee $0
-  i32.const 0
-  i32.store offset=24
-  local.get $0
-  i32.const 0
-  i32.store offset=28
-  local.get $0
-  i32.const 0
-  i32.store8 offset=32
-  local.get $0
-  i32.const 0
-  i32.store8 offset=33
-  local.get $0
-  i32.const 0
-  i32.store8 offset=34
-  call $~lib/rt/pure/__retain
-  local.set $2
-  call $~lib/@fastly/as-fetch/response/ResponseInit#constructor
-  local.tee $1
-  i32.const 200
-  i32.store16
-  local.get $1
-  i32.const 0
-  i32.store offset=4
-  local.get $1
-  local.get $2
-  call $~lib/rt/pure/__retain
-  i32.store offset=8
-  local.get $0
-  i32.const 0
-  local.get $1
-  call $~lib/@fastly/as-fetch/response/Response#constructor
-  local.tee $0
-  local.get $3
-  i32.store offset=24
-  local.get $0
-  local.get $4
-  i32.store offset=28
-  local.get $0
-  i32.const 0
-  i32.store8 offset=32
-  local.get $0
-  i32.const 0
-  i32.store8 offset=33
-  local.get $0
-  i32.const 0
-  i32.store8 offset=34
-  local.get $1
-  call $~lib/rt/pure/__release
-  local.get $2
-  call $~lib/rt/pure/__release
-  local.get $0
- )
- (func $~lib/@fastly/as-fetch/headers/Headers#_validateHeaderValue (param $0 i32)
-  (local $1 i32)
-  (local $2 i32)
-  local.get $0
-  call $~lib/rt/pure/__retain
-  local.tee $0
-  i32.const 20
-  i32.sub
-  i32.load offset=16
-  i32.const 1
-  i32.shr_u
-  i32.eqz
-  if
-   local.get $0
-   i32.const 4912
-   call $~lib/string/String.__concat
-   i32.const 3504
-   i32.const 232
-   i32.const 7
-   call $~lib/wasi/index/abort
-   unreachable
-  end
-  loop $for-loop|0
-   local.get $1
-   local.get $0
-   i32.const 20
-   i32.sub
-   i32.load offset=16
-   i32.const 1
-   i32.shr_u
-   i32.lt_s
-   if
-    i32.const 1
-    local.get $0
-    local.get $1
-    call $~lib/string/String#charCodeAt
-    local.tee $2
-    i32.const 9
-    i32.eq
-    local.get $2
-    i32.const 127
-    i32.ne
-    i32.const 0
-    local.get $2
-    i32.const 255
-    i32.le_s
-    i32.const 0
-    local.get $2
-    i32.const 31
-    i32.gt_s
-    select
-    select
-    select
-    i32.eqz
-    if
-     local.get $0
-     i32.const 4912
-     call $~lib/string/String.__concat
-     i32.const 3504
-     i32.const 252
-     i32.const 7
-     call $~lib/wasi/index/abort
-     unreachable
-    end
-    local.get $1
-    i32.const 1
-    i32.add
-    local.set $1
-    br $for-loop|0
-   end
-  end
-  local.get $0
-  call $~lib/rt/pure/__release
  )
  (func $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#rehash (param $0 i32) (param $1 i32)
   (local $2 i32)
@@ -5061,6 +3995,820 @@
   local.get $2
   call $~lib/rt/pure/__release
  )
+ (func $~lib/@fastly/as-fetch/body/Body#arrayBuffer (param $0 i32) (result i32)
+  local.get $0
+  i32.load8_u offset=4
+  if
+   i32.const 3264
+   i32.const 3328
+   i32.const 70
+   i32.const 7
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $0
+  i32.const 1
+  i32.store8 offset=4
+  local.get $0
+  i32.load
+  call $~lib/rt/pure/__retain
+ )
+ (func $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit#constructor (param $0 i32) (result i32)
+  local.get $0
+  if (result i32)
+   local.get $0
+  else
+   i32.const 16
+   i32.const 18
+   call $~lib/rt/pure/__new
+   call $~lib/rt/pure/__retain
+  end
+  call $~lib/@fastly/as-fetch/request/RequestInit#constructor
+  local.tee $0
+  i32.const 0
+  i32.store offset=12
+  local.get $0
+ )
+ (func $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#_writeRequestHeadersToHandle~anonymous|0 (param $0 i32) (param $1 i32) (param $2 i32)
+  local.get $1
+  call $~lib/rt/pure/__retain
+  local.set $1
+  local.get $2
+  call $~lib/rt/pure/__retain
+  local.set $2
+  local.get $0
+  local.get $1
+  local.get $1
+  i32.const 20
+  i32.sub
+  i32.load offset=16
+  local.get $2
+  local.get $2
+  i32.const 20
+  i32.sub
+  i32.load offset=16
+  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_header_insert
+  if
+   i32.const 3632
+   i32.const 3088
+   i32.const 115
+   i32.const 11
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $1
+  call $~lib/rt/pure/__release
+  local.get $2
+  call $~lib/rt/pure/__release
+ )
+ (func $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#keys (param $0 i32) (result i32)
+  (local $1 i32)
+  (local $2 i32)
+  (local $3 i32)
+  (local $4 i32)
+  (local $5 i32)
+  (local $6 i32)
+  (local $7 i32)
+  (local $8 i32)
+  local.get $0
+  i32.load offset=8
+  local.set $5
+  local.get $0
+  i32.load offset=16
+  local.tee $6
+  call $~lib/array/Array<~lib/string/String>#constructor
+  local.set $0
+  loop $for-loop|0
+   local.get $3
+   local.get $6
+   i32.lt_s
+   if
+    local.get $5
+    local.get $3
+    i32.const 12
+    i32.mul
+    i32.add
+    local.tee $2
+    i32.load offset=8
+    i32.const 1
+    i32.and
+    i32.eqz
+    if
+     local.get $2
+     i32.load
+     call $~lib/rt/pure/__retain
+     local.set $2
+     local.get $1
+     local.get $0
+     i32.load offset=12
+     i32.ge_u
+     if
+      local.get $1
+      i32.const 0
+      i32.lt_s
+      if
+       i32.const 2400
+       i32.const 2160
+       i32.const 120
+       i32.const 22
+       call $~lib/wasi/index/abort
+       unreachable
+      end
+      local.get $0
+      local.get $1
+      i32.const 1
+      i32.add
+      local.tee $4
+      i32.const 2
+      call $~lib/array/ensureSize
+      local.get $0
+      local.get $4
+      i32.store offset=12
+     end
+     local.get $2
+     call $~lib/rt/pure/__retain
+     local.tee $4
+     local.get $0
+     i32.load offset=4
+     local.get $1
+     i32.const 2
+     i32.shl
+     i32.add
+     local.tee $7
+     i32.load
+     local.tee $8
+     i32.ne
+     if
+      local.get $7
+      local.get $4
+      call $~lib/rt/pure/__retain
+      i32.store
+      local.get $8
+      call $~lib/rt/pure/__release
+     end
+     local.get $4
+     call $~lib/rt/pure/__release
+     local.get $2
+     call $~lib/rt/pure/__release
+     local.get $1
+     i32.const 1
+     i32.add
+     local.set $1
+    end
+    local.get $3
+    i32.const 1
+    i32.add
+    local.set $3
+    br $for-loop|0
+   end
+  end
+  local.get $1
+  local.get $0
+  i32.load offset=12
+  local.tee $2
+  i32.lt_s
+  if
+   local.get $0
+   i32.load offset=4
+   local.tee $4
+   local.get $1
+   i32.const 2
+   i32.shl
+   i32.add
+   local.set $3
+   local.get $4
+   local.get $2
+   i32.const 2
+   i32.shl
+   i32.add
+   local.set $2
+   loop $do-continue|0
+    local.get $3
+    i32.load
+    call $~lib/rt/pure/__release
+    local.get $3
+    i32.const 4
+    i32.add
+    local.tee $3
+    local.get $2
+    i32.lt_u
+    br_if $do-continue|0
+   end
+  else
+   local.get $0
+   local.get $1
+   i32.const 2
+   call $~lib/array/ensureSize
+  end
+  local.get $0
+  local.get $1
+  i32.store offset=12
+  local.get $0
+ )
+ (func $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#has (param $0 i32) (param $1 i32) (result i32)
+  (local $2 i32)
+  (local $3 i32)
+  local.get $1
+  call $~lib/rt/pure/__retain
+  local.tee $1
+  call $~lib/rt/pure/__retain
+  local.tee $2
+  call $~lib/util/hash/hashStr
+  local.set $3
+  local.get $2
+  call $~lib/rt/pure/__release
+  local.get $0
+  local.get $1
+  local.get $3
+  call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#find
+  i32.const 0
+  i32.ne
+  local.get $1
+  call $~lib/rt/pure/__release
+ )
+ (func $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#get (param $0 i32) (param $1 i32) (result i32)
+  (local $2 i32)
+  (local $3 i32)
+  local.get $1
+  call $~lib/rt/pure/__retain
+  local.tee $1
+  call $~lib/rt/pure/__retain
+  local.tee $2
+  call $~lib/util/hash/hashStr
+  local.set $3
+  local.get $2
+  call $~lib/rt/pure/__release
+  local.get $0
+  local.get $1
+  local.get $3
+  call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#find
+  local.tee $0
+  i32.eqz
+  if
+   i32.const 3776
+   i32.const 3840
+   i32.const 105
+   i32.const 17
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $0
+  i32.load offset=4
+  call $~lib/rt/pure/__retain
+  local.get $1
+  call $~lib/rt/pure/__release
+ )
+ (func $~lib/@fastly/as-compute/util/writeHeadersToHandle (param $0 i32) (param $1 i32) (param $2 i32)
+  (local $3 i32)
+  (local $4 i32)
+  (local $5 i32)
+  (local $6 i32)
+  (local $7 i32)
+  (local $8 i32)
+  (local $9 i32)
+  local.get $0
+  call $~lib/rt/pure/__retain
+  local.set $3
+  local.get $2
+  call $~lib/rt/pure/__retain
+  local.set $6
+  local.get $3
+  i32.load
+  call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#keys
+  local.set $4
+  loop $for-loop|0
+   local.get $5
+   local.get $4
+   i32.load offset=12
+   i32.lt_s
+   if
+    local.get $4
+    local.get $5
+    call $~lib/array/Array<~lib/string/String>#__get
+    local.tee $7
+    call $~lib/string/String.UTF8.encode
+    local.set $8
+    local.get $7
+    call $~lib/rt/pure/__retain
+    local.tee $0
+    call $~lib/@fastly/as-fetch/headers/Headers#_validateHeaderName
+    local.get $0
+    call $~lib/@fastly/as-fetch/headers/Headers#_headerNameToLowercase
+    local.set $2
+    local.get $0
+    call $~lib/rt/pure/__release
+    block $__inlined_func$~lib/@fastly/as-fetch/headers/Headers#get
+     local.get $3
+     i32.load
+     local.get $2
+     call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#has
+     if
+      local.get $3
+      i32.load
+      local.get $2
+      call $~lib/map/Map<~lib/string/String,~lib/array/Array<~lib/string/String>>#get
+      local.tee $9
+      i32.const 3888
+      call $~lib/array/Array<~lib/string/String>#join
+      local.set $0
+      local.get $9
+      call $~lib/rt/pure/__release
+      br $__inlined_func$~lib/@fastly/as-fetch/headers/Headers#get
+     end
+     i32.const 0
+     local.set $0
+    end
+    local.get $2
+    call $~lib/rt/pure/__release
+    local.get $0
+    call $~lib/string/String.UTF8.encode
+    local.set $2
+    i32.const 3
+    global.set $~argumentsLength
+    local.get $1
+    local.get $8
+    local.get $2
+    local.get $6
+    i32.load
+    call_indirect (type $i32_i32_i32_=>_none)
+    local.get $7
+    call $~lib/rt/pure/__release
+    local.get $8
+    call $~lib/rt/pure/__release
+    local.get $0
+    call $~lib/rt/pure/__release
+    local.get $2
+    call $~lib/rt/pure/__release
+    local.get $5
+    i32.const 1
+    i32.add
+    local.set $5
+    br $for-loop|0
+   end
+  end
+  local.get $4
+  call $~lib/rt/pure/__release
+  local.get $3
+  call $~lib/rt/pure/__release
+  local.get $6
+  call $~lib/rt/pure/__release
+ )
+ (func $~lib/@fastly/as-compute/util/createBodyHandleAndGetWriteableBodyStream (param $0 i32) (result i32)
+  (local $1 i32)
+  (local $2 i32)
+  (local $3 i32)
+  (local $4 i32)
+  (local $5 i32)
+  (local $6 i32)
+  (local $7 i32)
+  local.get $0
+  call $~lib/rt/pure/__retain
+  local.set $5
+  i32.const 4
+  call $~lib/rt/tlsf/__alloc
+  local.tee $0
+  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_body_new
+  if
+   i32.const 3920
+   i32.const 4032
+   i32.const 97
+   i32.const 5
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $0
+  i32.load
+  local.set $1
+  local.get $0
+  call $~lib/rt/tlsf/__free
+  i32.const 5
+  i32.const 22
+  call $~lib/rt/pure/__new
+  call $~lib/rt/pure/__retain
+  local.tee $0
+  i32.const 0
+  i32.store
+  local.get $0
+  i32.const 0
+  i32.store8 offset=4
+  local.get $0
+  local.get $1
+  i32.store
+  local.get $0
+  i32.const 0
+  i32.store8 offset=4
+  local.get $5
+  call $~lib/@fastly/as-fetch/util/isNull<~lib/arraybuffer/ArrayBuffer|null>
+  if
+   local.get $5
+   call $~lib/rt/pure/__release
+   local.get $0
+   return
+  end
+  local.get $5
+  call $~lib/rt/pure/__retain
+  local.set $6
+  block $__inlined_func$~lib/@fastly/as-compute/fastly/stream/writeable-body-stream/WriteableBodyStream#getWriter
+   local.get $0
+   local.tee $1
+   i32.load8_u offset=4
+   if
+    i32.const 0
+    local.set $0
+    br $__inlined_func$~lib/@fastly/as-compute/fastly/stream/writeable-body-stream/WriteableBodyStream#getWriter
+   end
+   local.get $1
+   i32.load
+   local.set $3
+   i32.const 9
+   i32.const 23
+   call $~lib/rt/pure/__new
+   call $~lib/rt/pure/__retain
+   local.tee $0
+   i32.const 0
+   i32.store
+   local.get $0
+   i32.const 0
+   i32.store offset=4
+   local.get $0
+   i32.const 0
+   i32.store8 offset=8
+   local.get $1
+   call $~lib/rt/pure/__retain
+   local.tee $4
+   local.tee $2
+   local.get $0
+   i32.load
+   local.tee $7
+   i32.ne
+   if
+    local.get $2
+    call $~lib/rt/pure/__retain
+    local.set $2
+    local.get $7
+    call $~lib/rt/pure/__release
+   end
+   local.get $0
+   local.get $2
+   i32.store
+   local.get $0
+   local.get $3
+   i32.store offset=4
+   local.get $0
+   i32.const 0
+   i32.store8 offset=8
+   local.get $4
+   call $~lib/rt/pure/__release
+   local.get $1
+   i32.const 1
+   i32.store8 offset=4
+  end
+  local.get $0
+  local.tee $2
+  i32.eqz
+  if
+   i32.const 4128
+   i32.const 4032
+   i32.const 115
+   i32.const 5
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $2
+  call $~lib/rt/pure/__retain
+  local.set $0
+  local.get $6
+  call $~lib/rt/pure/__retain
+  local.set $3
+  local.get $0
+  i32.load8_u offset=8
+  i32.eqz
+  if
+   i32.const 4
+   call $~lib/rt/tlsf/__alloc
+   local.set $4
+   local.get $0
+   i32.load offset=4
+   local.get $3
+   local.get $3
+   i32.const 20
+   i32.sub
+   i32.load offset=16
+   i32.const 0
+   local.get $4
+   call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_body_write
+   if
+    i32.const 4208
+    i32.const 4368
+    i32.const 138
+    i32.const 7
+    call $~lib/wasi/index/abort
+    unreachable
+   end
+   local.get $4
+   i32.load
+   drop
+   local.get $4
+   call $~lib/rt/tlsf/__free
+  end
+  local.get $3
+  call $~lib/rt/pure/__release
+  local.get $0
+  i32.load
+  i32.const 0
+  i32.store8 offset=4
+  local.get $0
+  i32.const 1
+  i32.store8 offset=8
+  local.get $6
+  call $~lib/rt/pure/__release
+  local.get $2
+  call $~lib/rt/pure/__release
+  local.get $0
+  call $~lib/rt/pure/__release
+  local.get $5
+  call $~lib/rt/pure/__release
+  local.get $1
+ )
+ (func $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#send (param $0 i32) (param $1 i32) (result i32)
+  (local $2 i32)
+  (local $3 i32)
+  (local $4 i32)
+  (local $5 i32)
+  (local $6 i32)
+  (local $7 i32)
+  (local $8 i32)
+  (local $9 i32)
+  (local $10 i32)
+  (local $11 i32)
+  (local $12 i32)
+  local.get $1
+  call $~lib/rt/pure/__retain
+  local.set $6
+  i32.const 4
+  call $~lib/rt/tlsf/__alloc
+  local.set $1
+  local.get $0
+  call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
+  local.tee $3
+  call $~lib/string/String.UTF8.encode
+  local.tee $2
+  i32.const 20
+  i32.sub
+  i32.load offset=16
+  local.set $4
+  local.get $0
+  i32.load offset=24
+  local.get $2
+  local.get $4
+  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_uri_set
+  if
+   i32.const 3408
+   i32.const 3088
+   i32.const 70
+   i32.const 7
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $1
+  i32.load
+  drop
+  local.get $1
+  call $~lib/rt/tlsf/__free
+  local.get $3
+  call $~lib/rt/pure/__release
+  local.get $2
+  call $~lib/rt/pure/__release
+  i32.const 4
+  call $~lib/rt/tlsf/__alloc
+  local.set $1
+  local.get $0
+  call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
+  local.tee $3
+  call $~lib/string/String.UTF8.encode
+  local.tee $2
+  i32.const 20
+  i32.sub
+  i32.load offset=16
+  local.set $4
+  local.get $0
+  i32.load offset=24
+  local.get $2
+  local.get $4
+  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_method_set
+  if
+   i32.const 3520
+   i32.const 3088
+   i32.const 89
+   i32.const 7
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $1
+  i32.load
+  drop
+  local.get $1
+  call $~lib/rt/tlsf/__free
+  local.get $3
+  call $~lib/rt/pure/__release
+  local.get $2
+  call $~lib/rt/pure/__release
+  local.get $0
+  call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
+  local.tee $1
+  local.get $0
+  i32.load offset=24
+  i32.const 3744
+  call $~lib/@fastly/as-compute/util/writeHeadersToHandle
+  local.get $1
+  call $~lib/rt/pure/__release
+  local.get $0
+  i32.load
+  call $~lib/@fastly/as-compute/util/createBodyHandleAndGetWriteableBodyStream
+  local.set $9
+  local.get $0
+  i32.load offset=28
+  if
+   local.get $0
+   i32.load offset=28
+   call $~lib/rt/pure/__retain
+   local.tee $1
+   i32.load8_u
+   i32.eqz
+   i32.eqz
+   local.tee $2
+   i32.const 2
+   i32.or
+   local.get $2
+   local.get $1
+   i32.load8_u offset=1
+   select
+   local.set $2
+   local.get $0
+   i32.load offset=24
+   local.get $2
+   i32.const 4
+   i32.or
+   local.get $2
+   local.get $1
+   i32.load8_u offset=8
+   select
+   local.get $1
+   i32.load offset=4
+   local.get $1
+   i32.load offset=12
+   call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_cache_override_set
+   if
+    i32.const 4512
+    i32.const 3088
+    i32.const 142
+    i32.const 9
+    call $~lib/wasi/index/abort
+    unreachable
+   end
+   local.get $1
+   call $~lib/rt/pure/__release
+  end
+  local.get $6
+  call $~lib/string/String.UTF8.encode
+  local.set $4
+  i32.const 4
+  call $~lib/rt/tlsf/__alloc
+  local.set $1
+  local.get $0
+  i32.load offset=24
+  local.get $9
+  i32.load
+  local.get $4
+  local.get $4
+  i32.const 20
+  i32.sub
+  i32.load offset=16
+  local.get $1
+  call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_send_async
+  if
+   i32.const 4608
+   i32.const 3088
+   i32.const 159
+   i32.const 7
+   call $~lib/wasi/index/abort
+   unreachable
+  end
+  local.get $1
+  i32.load
+  local.set $7
+  local.get $1
+  call $~lib/rt/tlsf/__free
+  i32.const 20
+  i32.const 17
+  call $~lib/rt/pure/__new
+  call $~lib/rt/pure/__retain
+  call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit#constructor
+  local.tee $2
+  i32.const 0
+  i32.store offset=16
+  local.get $2
+  local.get $0
+  call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
+  local.tee $10
+  call $~lib/rt/pure/__retain
+  i32.store offset=16
+  local.get $2
+  local.get $0
+  call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
+  local.tee $11
+  call $~lib/rt/pure/__retain
+  i32.store
+  local.get $2
+  local.get $0
+  call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
+  local.tee $12
+  call $~lib/rt/pure/__retain
+  i32.store offset=4
+  local.get $2
+  i32.const 0
+  i32.store offset=8
+  local.get $2
+  i32.const 0
+  i32.store offset=12
+  i32.const 32
+  i32.const 16
+  call $~lib/rt/pure/__new
+  call $~lib/rt/pure/__retain
+  local.tee $0
+  i32.const 0
+  i32.store offset=24
+  local.get $0
+  i32.const 0
+  i32.store offset=28
+  local.get $6
+  call $~lib/rt/pure/__retain
+  local.set $1
+  local.get $2
+  call $~lib/rt/pure/__retain
+  local.tee $8
+  i32.load offset=16
+  local.set $5
+  i32.const 0
+  call $~lib/@fastly/as-fetch/request/RequestInit#constructor
+  local.tee $3
+  local.get $8
+  i32.load
+  call $~lib/rt/pure/__retain
+  i32.store
+  local.get $3
+  local.get $8
+  i32.load offset=4
+  call $~lib/rt/pure/__retain
+  i32.store offset=4
+  local.get $3
+  i32.const 0
+  i32.store offset=8
+  local.get $0
+  local.get $5
+  local.get $3
+  call $~lib/@fastly/as-fetch/request/Request#constructor
+  local.tee $5
+  local.get $7
+  i32.store offset=24
+  local.get $1
+  local.tee $0
+  local.get $5
+  i32.load offset=28
+  local.tee $7
+  i32.ne
+  if
+   local.get $0
+   call $~lib/rt/pure/__retain
+   local.set $0
+   local.get $7
+   call $~lib/rt/pure/__release
+  end
+  local.get $5
+  local.get $0
+  i32.store offset=28
+  local.get $3
+  call $~lib/rt/pure/__release
+  local.get $1
+  call $~lib/rt/pure/__release
+  local.get $8
+  call $~lib/rt/pure/__release
+  local.get $9
+  call $~lib/rt/pure/__release
+  local.get $4
+  call $~lib/rt/pure/__release
+  local.get $2
+  call $~lib/rt/pure/__release
+  local.get $10
+  call $~lib/rt/pure/__release
+  local.get $11
+  call $~lib/rt/pure/__release
+  local.get $12
+  call $~lib/rt/pure/__release
+  local.get $6
+  call $~lib/rt/pure/__release
+  local.get $5
+ )
  (func $assembly/index/main (param $0 i32) (result i32)
   (local $1 i32)
   (local $2 i32)
@@ -5085,26 +4833,35 @@
   (local $21 i32)
   (local $22 i32)
   (local $23 i32)
+  (local $24 i32)
+  (local $25 i32)
+  (local $26 i32)
+  (local $27 i32)
+  (local $28 i32)
+  (local $29 i32)
+  (local $30 i32)
+  (local $31 i32)
+  (local $32 i32)
   local.get $0
   call $~lib/rt/pure/__retain
-  local.set $5
+  local.set $7
   i32.const 3
   i32.const 2016
   call $~lib/rt/__newArray
   call $~lib/rt/pure/__retain
-  local.tee $7
-  local.set $3
+  local.tee $9
+  local.set $2
   i32.const 0
   local.set $0
-  local.get $5
+  local.get $7
   call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
-  local.tee $9
+  local.tee $12
   call $~lib/rt/pure/__retain
-  local.tee $6
+  local.tee $5
   call $~lib/rt/pure/__retain
-  local.set $2
+  local.set $3
   block $__inlined_func$~lib/array/Array<~lib/string/String>#indexOf
-   local.get $7
+   local.get $9
    i32.load offset=12
    local.tee $1
    i32.const 0
@@ -5113,30 +4870,30 @@
    local.get $1
    select
    if
-    local.get $2
+    local.get $3
     call $~lib/rt/pure/__release
     i32.const -1
     local.set $0
     br $__inlined_func$~lib/array/Array<~lib/string/String>#indexOf
    end
-   local.get $3
+   local.get $2
    i32.load offset=4
-   local.set $3
+   local.set $2
    loop $while-continue|0
     local.get $0
     local.get $1
     i32.lt_s
     if
-     local.get $3
+     local.get $2
      local.get $0
      i32.const 2
      i32.shl
      i32.add
      i32.load
-     local.get $2
+     local.get $3
      call $~lib/string/String.__eq
      if
-      local.get $2
+      local.get $3
       call $~lib/rt/pure/__release
       br $__inlined_func$~lib/array/Array<~lib/string/String>#indexOf
      end
@@ -5147,12 +4904,12 @@
      br $while-continue|0
     end
    end
-   local.get $2
+   local.get $3
    call $~lib/rt/pure/__release
    i32.const -1
    local.set $0
   end
-  local.get $6
+  local.get $5
   call $~lib/rt/pure/__release
   local.get $0
   i32.const 0
@@ -5160,7 +4917,7 @@
   if
    i32.const 2048
    call $~lib/string/String.UTF8.encode
-   local.set $2
+   local.set $3
    call $~lib/@fastly/as-fetch/response/ResponseInit#constructor
    local.tee $0
    i32.const 405
@@ -5172,36 +4929,36 @@
    i32.const 0
    i32.store offset=8
    i32.const 0
-   local.get $2
+   local.get $3
    local.get $0
    call $~lib/@fastly/as-fetch/response/Response#constructor
-   local.get $2
+   local.get $3
    call $~lib/rt/pure/__release
    local.get $0
-   call $~lib/rt/pure/__release
-   local.get $5
-   call $~lib/rt/pure/__release
-   local.get $9
    call $~lib/rt/pure/__release
    local.get $7
    call $~lib/rt/pure/__release
+   local.get $12
+   call $~lib/rt/pure/__release
+   local.get $9
+   call $~lib/rt/pure/__release
    return
   end
-  local.get $5
+  local.get $7
   call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
-  local.tee $12
+  local.tee $17
   call $~lib/rt/pure/__retain
-  local.set $3
-  local.get $5
+  local.set $10
+  local.get $7
   call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
-  local.tee $13
+  local.tee $18
   i32.const 2128
   call $~lib/string/String#split
-  local.tee $6
+  local.tee $13
   local.set $0
-  local.get $6
+  local.get $13
   i32.load offset=12
-  local.tee $2
+  local.tee $3
   i32.const 1
   i32.lt_s
   if
@@ -5214,350 +4971,482 @@
   end
   local.get $0
   i32.load offset=4
-  local.get $2
+  local.get $3
   i32.const 1
   i32.sub
-  local.tee $2
+  local.tee $3
   i32.const 2
   i32.shl
   i32.add
   i32.load
   call $~lib/rt/pure/__retain
-  local.set $10
+  local.set $14
   local.get $0
-  local.get $2
+  local.get $3
   i32.store offset=12
-  local.get $10
+  local.get $14
   i32.const 2256
   call $~lib/string/String#split
-  local.tee $11
+  local.tee $15
   call $~lib/array/Array<~lib/string/String>#shift
-  local.set $14
+  local.set $19
   i32.const 2256
-  local.get $11
+  local.get $15
   i32.const 2256
   call $~lib/array/Array<~lib/string/String>#join
-  local.tee $15
+  local.tee $20
   call $~lib/string/String.__concat
-  local.tee $16
+  local.tee $21
   call $~lib/rt/pure/__retain
-  local.set $2
-  local.get $3
-  i32.const 1312
-  call $~lib/string/String.__eq
-  if (result i32)
-   local.get $2
-   i32.const 2256
+  local.set $3
+  block $folding-inner0
+   local.get $10
+   i32.const 1312
    call $~lib/string/String.__eq
-  else
-   i32.const 0
-  end
-  if
-   i32.const 2288
+   if (result i32)
+    local.get $3
+    i32.const 2256
+    call $~lib/string/String.__eq
+   else
+    i32.const 0
+   end
+   if
+    i32.const 2288
+    call $~lib/string/String.UTF8.encode
+    local.set $1
+    call $~lib/@fastly/as-fetch/response/ResponseInit#constructor
+    local.tee $0
+    i32.const 200
+    i32.store16
+    local.get $0
+    i32.const 0
+    i32.store offset=4
+    local.get $0
+    i32.const 2256
+    i32.store offset=8
+    i32.const 0
+    local.get $1
+    local.get $0
+    call $~lib/@fastly/as-fetch/response/Response#constructor
+    local.set $2
+    local.get $1
+    call $~lib/rt/pure/__release
+    br $folding-inner0
+   end
+   local.get $10
+   i32.const 1312
+   call $~lib/string/String.__eq
+   if (result i32)
+    block $__inlined_func$~lib/string/String#startsWith (result i32)
+     i32.const 2368
+     if (result i32)
+      i32.const 2368
+     else
+      i32.const 2368
+      call $~lib/rt/pure/__release
+      i32.const 1744
+     end
+     i32.const 20
+     i32.sub
+     i32.load offset=16
+     i32.const 1
+     i32.shr_u
+     local.tee $5
+     local.set $4
+     local.get $5
+     i32.const 0
+     local.get $3
+     i32.const 20
+     i32.sub
+     i32.load offset=16
+     i32.const 1
+     i32.shr_u
+     local.tee $1
+     local.get $1
+     select
+     local.tee $2
+     i32.add
+     local.get $1
+     i32.gt_s
+     if
+      i32.const 2368
+      call $~lib/rt/pure/__release
+      i32.const 0
+      br $__inlined_func$~lib/string/String#startsWith
+     end
+     local.get $3
+     local.get $2
+     i32.const 2368
+     local.get $4
+     call $~lib/util/string/compareImpl
+     i32.eqz
+     i32.const 2368
+     call $~lib/rt/pure/__release
+    end
+   else
+    i32.const 0
+   end
+   if
+    i32.const 2592
+    local.get $3
+    i32.const 2256
+    call $~lib/string/String#split
+    local.tee $25
+    i32.const 2
+    call $~lib/array/Array<~lib/string/String>#__get
+    local.tee $26
+    call $~lib/string/String.__concat
+    local.tee $27
+    call $~lib/rt/pure/__retain
+    local.set $22
+    local.get $7
+    call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
+    local.tee $28
+    i32.const 2656
+    i32.const 1248
+    call $~lib/@fastly/as-fetch/headers/Headers#set
+    i32.const 0
+    local.get $22
+    i32.const 0
+    call $~lib/@fastly/as-fetch/request/RequestInit#constructor
+    local.tee $29
+    call $~lib/@fastly/as-fetch/request/Request#constructor
+    local.set $23
+    i32.const 16
+    i32.const 14
+    call $~lib/rt/pure/__new
+    call $~lib/rt/pure/__retain
+    local.tee $0
+    i32.const 0
+    i32.store8
+    local.get $0
+    i32.const 0
+    i32.store8 offset=1
+    local.get $0
+    i32.const 0
+    i32.store offset=4
+    local.get $0
+    i32.const 0
+    i32.store8 offset=8
+    local.get $0
+    i32.const 0
+    i32.store offset=12
+    local.get $0
+    local.tee $1
+    i32.const 1
+    i32.store8
+    i32.const 8
+    i32.const 15
+    call $~lib/rt/pure/__new
+    call $~lib/rt/pure/__retain
+    local.tee $5
+    i32.const 0
+    i32.store
+    local.get $5
+    i32.const 0
+    i32.store offset=4
+    local.get $5
+    i32.const 1248
+    i32.store
+    local.get $5
+    local.get $0
+    call $~lib/rt/pure/__retain
+    i32.store offset=4
+    local.get $23
+    call $~lib/rt/pure/__retain
+    local.set $2
+    local.get $5
+    call $~lib/rt/pure/__retain
+    local.set $8
+    local.get $2
+    call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
+    local.set $11
+    i32.const 0
+    call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit#constructor
+    local.tee $4
+    local.get $2
+    call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
+    local.tee $30
+    call $~lib/rt/pure/__retain
+    i32.store
+    local.get $4
+    local.get $2
+    call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
+    local.tee $31
+    call $~lib/rt/pure/__retain
+    i32.store offset=4
+    local.get $4
+    local.get $2
+    call $~lib/@fastly/as-fetch/body/Body#arrayBuffer@virtual
+    i32.store offset=8
+    local.get $4
+    local.get $8
+    i32.load offset=4
+    call $~lib/rt/pure/__retain
+    i32.store offset=12
+    i32.const 32
+    i32.const 20
+    call $~lib/rt/pure/__new
+    call $~lib/rt/pure/__retain
+    local.tee $0
+    i32.const 0
+    i32.store offset=24
+    local.get $0
+    i32.const 0
+    i32.store offset=28
+    local.get $0
+    local.get $11
+    call $~lib/rt/pure/__retain
+    local.tee $32
+    local.get $4
+    call $~lib/rt/pure/__retain
+    local.tee $24
+    call $~lib/@fastly/as-fetch/request/Request#constructor
+    local.set $6
+    i32.const 4
+    call $~lib/rt/tlsf/__alloc
+    local.tee $0
+    call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_new
+    if
+     i32.const 2976
+     i32.const 3088
+     i32.const 49
+     i32.const 7
+     call $~lib/wasi/index/abort
+     unreachable
+    end
+    local.get $0
+    i32.load
+    local.set $16
+    local.get $0
+    call $~lib/rt/tlsf/__free
+    local.get $6
+    local.get $16
+    i32.store offset=24
+    local.get $24
+    i32.load offset=12
+    local.tee $0
+    local.get $6
+    i32.load offset=28
+    local.tee $16
+    i32.ne
+    if
+     local.get $0
+     call $~lib/rt/pure/__retain
+     local.set $0
+     local.get $16
+     call $~lib/rt/pure/__release
+    end
+    local.get $6
+    local.get $0
+    i32.store offset=28
+    local.get $32
+    call $~lib/rt/pure/__release
+    local.get $24
+    call $~lib/rt/pure/__release
+    local.get $6
+    local.get $8
+    i32.load
+    call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#send
+    local.set $0
+    local.get $11
+    call $~lib/rt/pure/__release
+    local.get $4
+    call $~lib/rt/pure/__release
+    local.get $30
+    call $~lib/rt/pure/__release
+    local.get $31
+    call $~lib/rt/pure/__release
+    local.get $6
+    call $~lib/rt/pure/__release
+    local.get $2
+    call $~lib/rt/pure/__release
+    local.get $8
+    call $~lib/rt/pure/__release
+    i32.const 4
+    call $~lib/rt/tlsf/__alloc
+    local.set $2
+    i32.const 4
+    call $~lib/rt/tlsf/__alloc
+    local.set $4
+    local.get $0
+    i32.load offset=24
+    local.get $2
+    local.get $4
+    call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_pending_req_wait
+    if
+     i32.const 4688
+     i32.const 4768
+     i32.const 57
+     i32.const 7
+     call $~lib/wasi/index/abort
+     unreachable
+    end
+    local.get $2
+    i32.load
+    local.set $8
+    local.get $4
+    i32.load
+    local.set $11
+    local.get $2
+    call $~lib/rt/tlsf/__free
+    local.get $4
+    call $~lib/rt/tlsf/__free
+    local.get $0
+    i32.load offset=8
+    i32.const 35
+    i32.const 19
+    call $~lib/rt/pure/__new
+    call $~lib/rt/pure/__retain
+    local.tee $2
+    i32.const 0
+    i32.store offset=24
+    local.get $2
+    i32.const 0
+    i32.store offset=28
+    local.get $2
+    i32.const 0
+    i32.store8 offset=32
+    local.get $2
+    i32.const 0
+    i32.store8 offset=33
+    local.get $2
+    i32.const 0
+    i32.store8 offset=34
+    call $~lib/rt/pure/__retain
+    local.set $6
+    call $~lib/@fastly/as-fetch/response/ResponseInit#constructor
+    local.tee $4
+    i32.const 200
+    i32.store16
+    local.get $4
+    i32.const 0
+    i32.store offset=4
+    local.get $4
+    local.get $6
+    call $~lib/rt/pure/__retain
+    i32.store offset=8
+    local.get $2
+    i32.const 0
+    local.get $4
+    call $~lib/@fastly/as-fetch/response/Response#constructor
+    local.tee $2
+    local.get $8
+    i32.store offset=24
+    local.get $2
+    local.get $11
+    i32.store offset=28
+    local.get $2
+    i32.const 0
+    i32.store8 offset=32
+    local.get $2
+    i32.const 0
+    i32.store8 offset=33
+    local.get $2
+    i32.const 0
+    i32.store8 offset=34
+    local.get $4
+    call $~lib/rt/pure/__release
+    local.get $6
+    call $~lib/rt/pure/__release
+    local.get $25
+    call $~lib/rt/pure/__release
+    local.get $26
+    call $~lib/rt/pure/__release
+    local.get $27
+    call $~lib/rt/pure/__release
+    local.get $22
+    call $~lib/rt/pure/__release
+    local.get $28
+    call $~lib/rt/pure/__release
+    local.get $29
+    call $~lib/rt/pure/__release
+    local.get $23
+    call $~lib/rt/pure/__release
+    local.get $1
+    call $~lib/rt/pure/__release
+    local.get $5
+    call $~lib/rt/pure/__release
+    br $folding-inner0
+   end
+   i32.const 4960
    call $~lib/string/String.UTF8.encode
    local.set $1
    call $~lib/@fastly/as-fetch/response/ResponseInit#constructor
    local.tee $0
-   i32.const 200
+   i32.const 404
    i32.store16
    local.get $0
    i32.const 0
    i32.store offset=4
    local.get $0
-   i32.const 2256
+   i32.const 0
    i32.store offset=8
    i32.const 0
    local.get $1
    local.get $0
    call $~lib/@fastly/as-fetch/response/Response#constructor
-   local.get $1
-   call $~lib/rt/pure/__release
-   local.get $0
-   call $~lib/rt/pure/__release
-   local.get $5
-   call $~lib/rt/pure/__release
    local.get $9
-   call $~lib/rt/pure/__release
-   local.get $7
-   call $~lib/rt/pure/__release
-   local.get $3
    call $~lib/rt/pure/__release
    local.get $12
    call $~lib/rt/pure/__release
-   local.get $13
-   call $~lib/rt/pure/__release
-   local.get $6
-   call $~lib/rt/pure/__release
-   local.get $10
-   call $~lib/rt/pure/__release
-   local.get $11
-   call $~lib/rt/pure/__release
-   local.get $14
-   call $~lib/rt/pure/__release
-   local.get $15
-   call $~lib/rt/pure/__release
-   local.get $16
-   call $~lib/rt/pure/__release
-   local.get $2
-   call $~lib/rt/pure/__release
-   return
-  end
-  local.get $3
-  i32.const 1312
-  call $~lib/string/String.__eq
-  if (result i32)
-   local.get $2
-   i32.const 2368
-   call $~lib/string/String.__eq
-  else
-   i32.const 0
-  end
-  if
-   call $~lib/@fastly/as-compute/fastly/cache-override/CacheOverride#constructor
-   local.tee $0
-   i32.const 1
-   i32.store8 offset=1
-   local.get $0
-   i32.const 60
-   i32.store offset=4
-   call $~lib/@fastly/as-compute/fastly/fastly/FetchInit#constructor
-   local.tee $1
-   i32.const 1248
-   i32.store
-   local.get $1
-   local.get $0
-   call $~lib/rt/pure/__retain
-   i32.store offset=4
-   local.get $5
-   local.get $1
-   call $~lib/@fastly/as-compute/fastly/fastly/fetch
-   local.tee $4
-   call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-pending-upstream-request/FastlyPendingUpstreamRequest#wait
-   local.get $0
-   call $~lib/rt/pure/__release
-   local.get $1
-   call $~lib/rt/pure/__release
-   local.get $4
-   call $~lib/rt/pure/__release
-   local.get $5
-   call $~lib/rt/pure/__release
-   local.get $9
-   call $~lib/rt/pure/__release
-   local.get $7
-   call $~lib/rt/pure/__release
-   local.get $3
-   call $~lib/rt/pure/__release
-   local.get $12
-   call $~lib/rt/pure/__release
-   local.get $13
-   call $~lib/rt/pure/__release
-   local.get $6
-   call $~lib/rt/pure/__release
-   local.get $10
-   call $~lib/rt/pure/__release
-   local.get $11
-   call $~lib/rt/pure/__release
-   local.get $14
-   call $~lib/rt/pure/__release
-   local.get $15
-   call $~lib/rt/pure/__release
-   local.get $16
-   call $~lib/rt/pure/__release
-   local.get $2
-   call $~lib/rt/pure/__release
-   return
-  end
-  local.get $3
-  i32.const 1312
-  call $~lib/string/String.__eq
-  if (result i32)
-   block $__inlined_func$~lib/string/String#startsWith (result i32)
-    i32.const 4784
-    if (result i32)
-     i32.const 4784
-    else
-     i32.const 4784
-     call $~lib/rt/pure/__release
-     i32.const 1744
-    end
-    i32.const 20
-    i32.sub
-    i32.load offset=16
-    i32.const 1
-    i32.shr_u
-    local.tee $8
-    local.set $17
-    local.get $8
-    i32.const 0
-    local.get $2
-    i32.const 20
-    i32.sub
-    i32.load offset=16
-    i32.const 1
-    i32.shr_u
-    local.tee $1
-    local.get $1
-    select
-    local.tee $4
-    i32.add
-    local.get $1
-    i32.gt_s
-    if
-     i32.const 4784
-     call $~lib/rt/pure/__release
-     i32.const 0
-     br $__inlined_func$~lib/string/String#startsWith
-    end
-    local.get $2
-    local.get $4
-    i32.const 4784
-    local.get $17
-    call $~lib/util/string/compareImpl
-    i32.eqz
-    i32.const 4784
-    call $~lib/rt/pure/__release
-   end
-  else
-   i32.const 0
-  end
-  if
-   i32.const 4816
-   local.get $2
-   i32.const 2256
-   call $~lib/string/String#split
-   local.tee $17
-   i32.const 2
-   call $~lib/array/Array<~lib/string/String>#__get
-   local.tee $18
-   call $~lib/string/String.__concat
-   local.tee $19
-   call $~lib/rt/pure/__retain
-   local.set $1
-   local.get $5
-   call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
-   local.tee $20
-   i32.const 4880
-   i32.const 1248
-   call $~lib/@fastly/as-fetch/headers/Headers#set
-   i32.const 0
-   local.get $1
-   i32.const 0
-   call $~lib/@fastly/as-fetch/request/RequestInit#constructor
-   local.tee $21
-   call $~lib/@fastly/as-fetch/request/Request#constructor
-   local.set $4
-   call $~lib/@fastly/as-compute/fastly/cache-override/CacheOverride#constructor
-   local.tee $8
-   i32.const 1
-   i32.store8
-   call $~lib/@fastly/as-compute/fastly/fastly/FetchInit#constructor
-   local.tee $0
-   i32.const 1248
-   i32.store
-   local.get $0
-   local.get $8
-   call $~lib/rt/pure/__retain
-   i32.store offset=4
-   local.get $4
-   local.get $0
-   call $~lib/@fastly/as-compute/fastly/fastly/fetch
-   local.tee $22
-   call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-pending-upstream-request/FastlyPendingUpstreamRequest#wait
    local.get $17
+   call $~lib/rt/pure/__release
+   local.get $10
    call $~lib/rt/pure/__release
    local.get $18
    call $~lib/rt/pure/__release
-   local.get $19
+   local.get $13
    call $~lib/rt/pure/__release
-   local.get $1
+   local.get $14
+   call $~lib/rt/pure/__release
+   local.get $15
+   call $~lib/rt/pure/__release
+   local.get $19
    call $~lib/rt/pure/__release
    local.get $20
    call $~lib/rt/pure/__release
    local.get $21
    call $~lib/rt/pure/__release
-   local.get $4
+   local.get $3
    call $~lib/rt/pure/__release
-   local.get $8
+   local.get $1
    call $~lib/rt/pure/__release
    local.get $0
    call $~lib/rt/pure/__release
-   local.get $22
-   call $~lib/rt/pure/__release
-   local.get $5
-   call $~lib/rt/pure/__release
-   local.get $9
-   call $~lib/rt/pure/__release
    local.get $7
-   call $~lib/rt/pure/__release
-   local.get $3
-   call $~lib/rt/pure/__release
-   local.get $12
-   call $~lib/rt/pure/__release
-   local.get $13
-   call $~lib/rt/pure/__release
-   local.get $6
-   call $~lib/rt/pure/__release
-   local.get $10
-   call $~lib/rt/pure/__release
-   local.get $11
-   call $~lib/rt/pure/__release
-   local.get $14
-   call $~lib/rt/pure/__release
-   local.get $15
-   call $~lib/rt/pure/__release
-   local.get $16
-   call $~lib/rt/pure/__release
-   local.get $2
    call $~lib/rt/pure/__release
    return
   end
-  i32.const 5008
-  call $~lib/string/String.UTF8.encode
-  local.set $1
-  call $~lib/@fastly/as-fetch/response/ResponseInit#constructor
-  local.tee $0
-  i32.const 404
-  i32.store16
   local.get $0
-  i32.const 0
-  i32.store offset=4
-  local.get $0
-  i32.const 0
-  i32.store offset=8
-  i32.const 0
-  local.get $1
-  local.get $0
-  call $~lib/@fastly/as-fetch/response/Response#constructor
-  local.get $7
   call $~lib/rt/pure/__release
-  local.get $9
+  local.get $7
   call $~lib/rt/pure/__release
   local.get $12
   call $~lib/rt/pure/__release
-  local.get $3
-  call $~lib/rt/pure/__release
-  local.get $13
-  call $~lib/rt/pure/__release
-  local.get $6
+  local.get $9
   call $~lib/rt/pure/__release
   local.get $10
   call $~lib/rt/pure/__release
-  local.get $11
+  local.get $17
+  call $~lib/rt/pure/__release
+  local.get $18
+  call $~lib/rt/pure/__release
+  local.get $13
   call $~lib/rt/pure/__release
   local.get $14
   call $~lib/rt/pure/__release
   local.get $15
   call $~lib/rt/pure/__release
-  local.get $16
+  local.get $19
+  call $~lib/rt/pure/__release
+  local.get $20
+  call $~lib/rt/pure/__release
+  local.get $21
+  call $~lib/rt/pure/__release
+  local.get $3
   call $~lib/rt/pure/__release
   local.get $2
-  call $~lib/rt/pure/__release
-  local.get $1
-  call $~lib/rt/pure/__release
-  local.get $0
-  call $~lib/rt/pure/__release
-  local.get $5
-  call $~lib/rt/pure/__release
  )
  (func $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-response/FastlyDownstreamResponse#_writeResponseHeadersToHandle~anonymous|0 (param $0 i32) (param $1 i32) (param $2 i32)
   local.get $1
@@ -5579,8 +5468,8 @@
   i32.load offset=16
   call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_resp_header_insert
   if
-   i32.const 3072
-   i32.const 5248
+   i32.const 3632
+   i32.const 5200
    i32.const 73
    i32.const 11
    call $~lib/wasi/index/abort
@@ -5765,8 +5654,8 @@
   local.tee $2
   call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_resp_new
   if
-   i32.const 5120
-   i32.const 5248
+   i32.const 5072
+   i32.const 5200
    i32.const 38
    i32.const 7
    call $~lib/wasi/index/abort
@@ -5798,7 +5687,7 @@
   local.tee $2
   local.get $0
   i32.load offset=24
-  i32.const 5424
+  i32.const 5376
   call $~lib/@fastly/as-compute/util/writeHeadersToHandle
   local.get $2
   call $~lib/rt/pure/__release
@@ -6076,8 +5965,8 @@
     i32.load
     call_indirect (type $i32_i32_i32_=>_i32)
     if
-     i32.const 5488
-     i32.const 3856
+     i32.const 5440
+     i32.const 4032
      i32.const 48
      i32.const 7
      call $~lib/wasi/index/abort
@@ -6115,7 +6004,7 @@
    if
     local.get $0
     i32.load offset=24
-    i32.const 5456
+    i32.const 5408
     call $~lib/@fastly/as-compute/util/getStringFromHandle
     local.tee $2
     local.tee $1
@@ -6182,7 +6071,7 @@
    if
     local.get $0
     i32.load offset=24
-    i32.const 5616
+    i32.const 5568
     call $~lib/@fastly/as-compute/util/getStringFromHandle
     local.tee $2
     local.tee $1
@@ -6250,7 +6139,7 @@
    i32.ne
    if
     i32.const 1344
-    i32.const 5648
+    i32.const 5600
     i32.const 1750
     i32.const 7
     call $~lib/wasi/index/abort
@@ -6263,7 +6152,7 @@
    i32.lt_s
    if
     i32.const 1344
-    i32.const 5648
+    i32.const 5600
     i32.const 1755
     i32.const 7
     call $~lib/wasi/index/abort
@@ -6296,8 +6185,8 @@
   i32.load offset=8
   i32.ge_u
   if
-   i32.const 3216
-   i32.const 5648
+   i32.const 2400
+   i32.const 5600
    i32.const 152
    i32.const 45
    call $~lib/wasi/index/abort
@@ -6425,7 +6314,7 @@
   local.get $4
   local.get $0
   i32.store
-  i32.const 5712
+  i32.const 5664
   call $~lib/string/String.UTF8.encode
   local.set $6
   i32.const 1
@@ -6545,7 +6434,7 @@
   call $~lib/rt/pure/__release
   local.get $7
   call $~lib/rt/pure/__release
-  i32.const 5712
+  i32.const 5664
   call $~lib/rt/pure/__release
   local.get $3
   call $~lib/rt/pure/__release
@@ -6580,8 +6469,8 @@
   i32.load offset=8
   i32.ge_u
   if
-   i32.const 3216
-   i32.const 5648
+   i32.const 2400
+   i32.const 5600
    i32.const 163
    i32.const 45
    call $~lib/wasi/index/abort
@@ -6671,8 +6560,8 @@
     local.get $0
     i32.const 1
     i32.store8 offset=28
-    i32.const 5776
-    i32.const 5888
+    i32.const 5728
+    i32.const 5840
     i32.const 75
     i32.const 9
     call $~lib/wasi/index/abort
@@ -6705,8 +6594,8 @@
     local.get $0
     i32.const 1
     i32.store8 offset=28
-    i32.const 6032
-    i32.const 5888
+    i32.const 5984
+    i32.const 5840
     i32.const 94
     i32.const 9
     call $~lib/wasi/index/abort
@@ -6793,8 +6682,8 @@
    i32.load offset=12
    i32.eqz
    if
-    i32.const 6128
-    i32.const 5888
+    i32.const 6080
+    i32.const 5840
     i32.const 121
     i32.const 9
     call $~lib/wasi/index/abort
@@ -6832,7 +6721,7 @@
    local.get $5
    call $~lib/rt/pure/__release
   else
-   i32.const 6240
+   i32.const 6192
    i32.const 1776
    i32.const 164
    i32.const 13
@@ -6904,7 +6793,7 @@
   local.get $0
   i32.load offset=24
   i32.const 0
-  i32.const 5744
+  i32.const 5696
   call $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall#constructor
   local.set $8
   i32.const 0
@@ -6958,7 +6847,7 @@
     local.get $9
     call $~lib/typedarray/Uint8Array.wrap@varargs
     local.tee $11
-    i32.const 6368
+    i32.const 6320
     call $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall#constructor
     local.set $10
     i32.const 0
@@ -7193,8 +7082,8 @@
    local.get $3
    call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_body_read
    if
-    i32.const 6656
-    i32.const 6768
+    i32.const 6608
+    i32.const 6720
     i32.const 177
     i32.const 7
     call $~lib/wasi/index/abort
@@ -7404,7 +7293,7 @@
     i32.load offset=12
     i32.ge_u
     if
-     i32.const 3216
+     i32.const 2400
      i32.const 2160
      i32.const 104
      i32.const 42
@@ -7469,8 +7358,8 @@
      local.tee $2
      i32.eqz
      if
-      i32.const 6400
-      i32.const 6480
+      i32.const 6352
+      i32.const 6432
       i32.const 173
       i32.const 7
       call $~lib/wasi/index/abort
@@ -7524,7 +7413,7 @@
     local.tee $2
     i32.eqz
     if
-     i32.const 6912
+     i32.const 6864
      i32.const 1776
      i32.const 209
      i32.const 7
@@ -7665,8 +7554,8 @@
    local.get $5
    call $~lib/rt/pure/__release
   else
-   i32.const 6240
-   i32.const 6480
+   i32.const 6192
+   i32.const 6432
    i32.const 128
    i32.const 13
    call $~lib/wasi/index/abort
@@ -7689,7 +7578,7 @@
   local.get $0
   i32.load offset=24
   i32.const 0
-  i32.const 7072
+  i32.const 7024
   call $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall#constructor
   local.set $8
   i32.const 0
@@ -7743,7 +7632,7 @@
     local.get $9
     call $~lib/typedarray/Uint8Array.wrap@varargs
     local.tee $11
-    i32.const 7104
+    i32.const 7056
     call $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall#constructor
     local.set $10
     i32.const 0
@@ -7856,7 +7745,7 @@
  )
  (func $~lib/rt/pure/__visit (param $0 i32)
   local.get $0
-  i32.const 7396
+  i32.const 7348
   i32.lt_u
   if
    return
