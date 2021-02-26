@@ -1,10 +1,11 @@
 import { Request,  Response, Fastly, RequestInit } from "@fastly/as-compute";
+import { Console } from "as-wasi";
 
 // The name of a backend server associated with this service.
 //
 // This should be changed to match the name of your own backend. See the the
 // `Hosts` section of the Fastly Wasm service UI for more information.
-const GIFCITIES_BACKEND = "gifcities.archive.org";
+const GIFCITIES_BACKEND = "gifcities";
 
 // The entry point for your application.
 //
@@ -51,16 +52,15 @@ function main(req: Request): Response {
 
         // construct the API search URL
 
-        let gifCitiesAPIPath = "/api/v1/gifsearch?q=" + searchTerm;
+        let gifCitiesAPIPath = "https://gifcities.archive.org/api/v1/gifsearch?limit=5&q=" + searchTerm;
 
         // set the Host header to gifcities.archive.org
-
-        req.headers.set("Host", "gifcities.archive.org");
 
         // create new request for API call
 
         let gifCitiesAPIRequestinit = new RequestInit;
         let gifCitiesAPIRequest = new Request(gifCitiesAPIPath, gifCitiesAPIRequestinit);
+        gifCitiesAPIRequest.headers.set("Host", "gifcities.archive.org");
 
         // make API request and wait for the API to return. return the call to the client
 
