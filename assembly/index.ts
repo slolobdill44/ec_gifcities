@@ -1,5 +1,6 @@
 import { Request,  Response, Fastly, RequestInit } from "@fastly/as-compute";
 import { Console } from "as-wasi";
+import { JSON } from "assemblyscript-json"; 
 
 // The name of a backend server associated with this service.
 //
@@ -73,19 +74,17 @@ function main(req: Request): Response {
             cacheOverride,
         }).wait();
 
-        // Validate response is usable (NOT DONE)
+        // Validate response is usable (NOT DONE)3
 
         // take the first search result and build gif request URL
 
-        let gifCitiesAPIResponseBody = JSON.parse(gifCitiesAPIResponse.text());
+        let gifCitiesAPIResponseBody = gifCitiesAPIResponse.text();
         
-        Console.log(gifCitiesAPIResponseBody);
-        
-        let resultPageUrl = gifCitiesAPIResponseBody[0].page;
-        let resultGif = gifCitiesAPIResponseBody[1].gif;
-        let gifUrl = (resultPageUrl.slice(0, 30)) + resultGif;
+        // let resultPageUrl = gifCitiesAPIResponseBody[0].page;
+        // let resultGif = gifCitiesAPIResponseBody[1].gif;
+        // let gifUrl = (resultPageUrl.slice(0, 30)) + resultGif;
 
-        Console.log(gifUrl);
+        Console.log(gifCitiesAPIResponseBody);
 
 
 
