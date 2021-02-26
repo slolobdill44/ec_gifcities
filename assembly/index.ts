@@ -50,16 +50,17 @@ function main(req: Request): Response {
 
         // fail if the search term is not usable with gifcities (NOT DONE)
 
-        // construct the API search URL
+        // construct the API search URL and limit to 3 search results
 
-        let gifCitiesAPIPath = "https://gifcities.archive.org/api/v1/gifsearch?limit=5&q=" + searchTerm;
-
-        // set the Host header to gifcities.archive.org
+        let gifCitiesAPIPath = "https://gifcities.archive.org/api/v1/gifsearch?limit=3&q=" + searchTerm;
 
         // create new request for API call
 
         let gifCitiesAPIRequestinit = new RequestInit;
         let gifCitiesAPIRequest = new Request(gifCitiesAPIPath, gifCitiesAPIRequestinit);
+        
+        // set the Host header to gifcities.archive.org for the API request
+        
         gifCitiesAPIRequest.headers.set("Host", "gifcities.archive.org");
 
         // make API request and wait for the API to return. return the call to the client
@@ -67,18 +68,45 @@ function main(req: Request): Response {
         let cacheOverride = new Fastly.CacheOverride();
         cacheOverride.setPass();
 
-        return Fastly.fetch(gifCitiesAPIRequest, {
+        let gifCitiesAPIResponse = Fastly.fetch(gifCitiesAPIRequest, {
             backend: GIFCITIES_BACKEND,
             cacheOverride,
         }).wait();
 
-        // take the first 3 search results
+        // Validate response is usable (NOT DONE)
 
-        // send out new requests for those 3 results??
+        // take the first search result and build gif request URL
 
-        // stitch responses together
+        let gifCitiesAPIResponseBody = JSON.parse(gifCitiesAPIResponse.text());
+        
+        Console.log(gifCitiesAPIResponseBody);
+        
+        let resultPageUrl = gifCitiesAPIResponseBody[0].page;
+        let resultGif = gifCitiesAPIResponseBody[1].gif;
+        let gifUrl = (resultPageUrl.slice(0, 30)) + resultGif;
+
+        Console.log(gifUrl);
+
+
+
+
+        //
 
         // send response to client
+
+        return gifCitiesAPIResponse;
+
+
+
+
+
+        // future: take the first 3 search results
+
+        // future: send out new requests for those 3 results??
+
+        // future: stitch responses together
+
+        
 
     }
 

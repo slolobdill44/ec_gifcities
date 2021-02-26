@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "@fastly/as-compute": "^0.2.0",
-    "as-wasi": "^0.4.4"
+    "as-wasi": "^0.4.4",
+    "assemblyscript-json": "^1.0.0"
   },
   "scripts": {
     "asbuild:untouched": "asc assembly/index.ts --target debug",
