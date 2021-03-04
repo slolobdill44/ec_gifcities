@@ -79,12 +79,21 @@ function main(req: Request): Response {
         // take the first search result and build gif request URL
 
         let gcAPIResponseBody = gcAPIResponse.text();
-        
-        let resultPageUrl = gcAPIResponseBody[0].page;
-        let resultGif = gcAPIResponseBody[1].gif;
-        let gifUrl = (resultPageUrl.slice(0, 30)) + resultGif;
 
-        Console.log(gcAPIResponseBody);
+        let gcAPIResponseJSON: JSON.Obj = <JSON.Obj>(JSON.parse(gcAPIResponseBody));
+
+        let resultGifOrNo: JSON.Str | null = gcAPIResponseJSON.getString("gif");
+        if (resultGifOrNo != null) {
+            // use .valueOf() to turn the high level JSON.Str type into a string
+            let resultGif: string = resultGifOrNo.valueOf();
+            Console.log(resultGif);
+        }
+        
+        // let resultPageUrl = gcAPIResponseBody[0].page;
+        // let resultGif = gcAPIResponseBody[1].gif;
+        // let gifUrl = (resultPageUrl.slice(0, 30)) + resultGif;
+
+        
         // body is now used, you will need to construct a new Response object and include gcAPIResponseBody as the body text
 
         // convert response body string into usable array or string parts (NOT DONE)
@@ -94,7 +103,11 @@ function main(req: Request): Response {
 
         // send response to client
 
-        return gcAPIResponse;
+        return new Response(String.UTF8.encode(gcAPIResponseBody), {
+            status: 200,
+            headers: null,
+            url: null
+        });
 
 
 
