@@ -53,47 +53,48 @@ function main(req: Request): Response {
 
         // construct the API search URL and limit to 3 search results
 
-        let gifCitiesAPIPath = "https://gifcities.archive.org/api/v1/gifsearch?limit=3&q=" + searchTerm;
+        let gcAPIPath = "https://gifcities.archive.org/api/v1/gifsearch?limit=3&q=" + searchTerm;
 
         // create new request for API call
 
-        let gifCitiesAPIRequestinit = new RequestInit;
-        let gifCitiesAPIRequest = new Request(gifCitiesAPIPath, gifCitiesAPIRequestinit);
+        let gcAPIRequestinit = new RequestInit;
+        let gcAPIRequest = new Request(gcAPIPath, gcAPIRequestinit);
         
         // set the Host header to gifcities.archive.org for the API request
         
-        gifCitiesAPIRequest.headers.set("Host", "gifcities.archive.org");
+        gcAPIRequest.headers.set("Host", "gifcities.archive.org");
 
         // make API request and wait for the API to return. return the call to the client
 
         let cacheOverride = new Fastly.CacheOverride();
         cacheOverride.setPass();
 
-        let gifCitiesAPIResponse = Fastly.fetch(gifCitiesAPIRequest, {
+        let gcAPIResponse = Fastly.fetch(gcAPIRequest, {
             backend: GIFCITIES_BACKEND,
             cacheOverride,
         }).wait();
 
-        // Validate response is usable (NOT DONE)3
+        // Validate response is usable (NOT DONE)
 
         // take the first search result and build gif request URL
 
-        let gifCitiesAPIResponseBody = gifCitiesAPIResponse.text();
+        let gcAPIResponseBody = gcAPIResponse.text();
         
-        // let resultPageUrl = gifCitiesAPIResponseBody[0].page;
-        // let resultGif = gifCitiesAPIResponseBody[1].gif;
-        // let gifUrl = (resultPageUrl.slice(0, 30)) + resultGif;
+        let resultPageUrl = gcAPIResponseBody[0].page;
+        let resultGif = gcAPIResponseBody[1].gif;
+        let gifUrl = (resultPageUrl.slice(0, 30)) + resultGif;
 
-        Console.log(gifCitiesAPIResponseBody);
+        Console.log(gcAPIResponseBody);
+        // body is now used, you will need to construct a new Response object and include gcAPIResponseBody as the body text
+
+        // convert response body string into usable array or string parts (NOT DONE)
 
 
 
-
-        //
 
         // send response to client
 
-        return gifCitiesAPIResponse;
+        return gcAPIResponse;
 
 
 
