@@ -78,15 +78,25 @@ function main(req: Request): Response {
 
         // take the first search result and build gif request URL
 
-        let gcAPIResponseBody = gcAPIResponse.text();
+        var resultsArr = new ArrayBuffer(3);
+        let resultsArrOrNo = gcAPIResponse.arrayBuffer();
+        if (resultsArrOrNo != null) {
+            // use .valueOf() to turn the high level JSON.Str type into a string
+            let resultsArrString: string = resultsArrOrNo.toString();
+            Console.log("resultArr string is: " + resultsArrString);
 
-        let gcAPIResponseJSON: JSON.Obj = <JSON.Obj>(JSON.parse(gcAPIResponseBody));
+            resultsArr = resultsArrOrNo;
+        }
+
+        Console.log("resultsArr index 0 is" + resultsArr[0].toString());
+
+        let gcAPIResponseJSON: JSON.Obj = <JSON.Obj>(JSON.parse(resultsArr[0]));
 
         let resultGifOrNo: JSON.Str | null = gcAPIResponseJSON.getString("gif");
         if (resultGifOrNo != null) {
             // use .valueOf() to turn the high level JSON.Str type into a string
             let resultGif: string = resultGifOrNo.valueOf();
-            Console.log(resultGif);
+            Console.log("resultGif string is: " + resultGif);
         }
         
         // let resultPageUrl = gcAPIResponseBody[0].page;
@@ -102,15 +112,13 @@ function main(req: Request): Response {
 
 
         // send response to client
+        let clientResponse = gcAPIResponse.text();
 
-        return new Response(String.UTF8.encode(gcAPIResponseBody), {
+        return new Response(String.UTF8.encode(clientResponse), {
             status: 200,
             headers: null,
             url: null
         });
-
-
-
 
 
         // future: take the first 3 search results

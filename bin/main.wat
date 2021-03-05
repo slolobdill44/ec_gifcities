@@ -95,47 +95,49 @@
  (data (i32.const 5324) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00Z\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00r\00e\00a\00d\00 \00t\00h\00e\00 \00b\00o\00d\00y\00 \00i\00n\00 \00t\00h\00e\00 \00R\00e\00a\00d\00a\00b\00l\00e\00S\00t\00r\00e\00a\00m")
  (data (i32.const 5436) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00z\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00s\00t\00r\00e\00a\00m\00/\00r\00e\00a\00d\00a\00b\00l\00e\00-\00b\00o\00d\00y\00-\00s\00t\00r\00e\00a\00m\00.\00t\00s")
  (data (i32.const 5580) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00$\00\00\00~\00l\00i\00b\00/\00t\00y\00p\00e\00d\00a\00r\00r\00a\00y\00.\00t\00s")
- (data (i32.const 5644) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00{")
- (data (i32.const 5676) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00}")
- (data (i32.const 5708) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00,")
- (data (i32.const 5740) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\"")
- (data (i32.const 5772) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\\")
- (data (i32.const 5804) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00b")
- (data (i32.const 5836) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\08")
- (data (i32.const 5868) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00n")
- (data (i32.const 5900) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\n")
- (data (i32.const 5932) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00r")
- (data (i32.const 5964) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\0d")
- (data (i32.const 5996) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00t")
- (data (i32.const 6028) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\t")
- (data (i32.const 6060) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00u")
- (data (i32.const 6092) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00:")
- (data (i32.const 6124) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00[")
- (data (i32.const 6156) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00]")
- (data (i32.const 6188) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\n\00\00\00f\00a\00l\00s\00e")
- (data (i32.const 6220) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\08\00\00\00t\00r\00u\00e")
- (data (i32.const 6252) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\04\00\00\00-\000")
- (data (i32.const 6294) "\f0?\00\00\00\00\00\00$@\00\00\00\00\00\00Y@\00\00\00\00\00@\8f@\00\00\00\00\00\88\c3@\00\00\00\00\00j\f8@\00\00\00\00\80\84.A\00\00\00\00\d0\12cA\00\00\00\00\84\d7\97A\00\00\00\00e\cd\cdA\00\00\00 _\a0\02B\00\00\00\e8vH7B\00\00\00\a2\94\1amB\00\00@\e5\9c0\a2B\00\00\90\1e\c4\bc\d6B\00\004&\f5k\0cC\00\80\e07y\c3AC\00\a0\d8\85W4vC\00\c8Ngm\c1\abC\00=\91`\e4X\e1C@\8c\b5x\1d\af\15DP\ef\e2\d6\e4\1aKD\92\d5M\06\cf\f0\80D")
- (data (i32.const 6476) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\06\00\00\00g\00i\00f")
- (data (i32.const 6604) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00R\00\00\00T\00h\00e\00 \00p\00a\00g\00e\00 \00y\00o\00u\00 \00r\00e\00q\00u\00e\00s\00t\00e\00d\00 \00c\00o\00u\00l\00d\00 \00n\00o\00t\00 \00b\00e\00 \00f\00o\00u\00n\00d")
- (data (i32.const 6716) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00r\00e\00s\00p\00o\00n\00s\00e\00 \00h\00a\00n\00d\00l\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t")
- (data (i32.const 6844) "\ac\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\9c\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00d\00o\00w\00n\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00d\00o\00w\00n\00s\00t\00r\00e\00a\00m\00-\00r\00e\00s\00p\00o\00n\00s\00e\00.\00t\00s")
- (data (i32.const 7020) "\1c\00\00\00\01\00\00\00\00\00\00\00\15\00\00\00\08\00\00\00\02")
- (data (i32.const 7052) "\1c\00\00\00\01\00\00\00\00\00\00\00-\00\00\00\08\00\00\00\03")
- (data (i32.const 7084) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00`\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00s\00t\00r\00i\00n\00g\00 \00v\00a\00l\00u\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t\00c\00a\00l\00l")
- (data (i32.const 7212) "\1c\00\00\00\01\00\00\00\00\00\00\00-\00\00\00\08\00\00\00\04")
- (data (i32.const 7244) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02")
- (data (i32.const 7276) "\1c\00\00\00\01\00\00\00\00\00\00\000\00\00\00\08\00\00\00\05")
- (data (i32.const 7308) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00R\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00c\00l\00o\00s\00u\00r\00e\00 \00r\00e\00t\00u\00r\00n\00e\00d\00 \00e\00r\00r\00o\00r")
- (data (i32.const 7420) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00t\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00a\00b\00i\00/\00m\00u\00l\00t\00i\00-\00v\00a\00l\00u\00e\00-\00h\00o\00s\00t\00c\00a\00l\00l\00.\00t\00s")
- (data (i32.const 7564) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00F\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00b\00u\00f\00f\00e\00r\00 \00t\00o\00o\00 \00s\00m\00a\00l\00l")
- (data (i32.const 7660) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00V\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00s\00e\00p\00a\00r\00a\00t\00o\00r\00 \00b\00y\00t\00e\00 \00n\00o\00t\00 \00f\00o\00u\00n\00d")
- (data (i32.const 7772) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00C\00a\00l\00l\00,\00 \00d\00i\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00h\00e\00a\00d\00e\00r\00 \00n\00a\00m\00e")
- (data (i32.const 7900) "\1c\00\00\00\01\00\00\00\00\00\00\000\00\00\00\08\00\00\00\06")
- (data (i32.const 7932) "\9c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\8c\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00a\00 \00R\00e\00a\00d\00a\00b\00l\00e\00B\00o\00d\00y\00S\00t\00r\00e\00a\00m\00R\00e\00a\00d\00e\00r\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00b\00o\00d\00y\00 \00h\00a\00n\00d\00l\00e\00.")
- (data (i32.const 8092) "\1c\00\00\00\01\00\00\00\00\00\00\000\00\00\00\08\00\00\00\07")
- (data (i32.const 8124) "\1c\00\00\00\01\00\00\00\00\00\00\000\00\00\00\08\00\00\00\08")
- (data (i32.const 8160) "1\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\04\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"A\00\00\00\00\00\000A\82\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\03\00\00\00 \00\00\00\04\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"\t\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\03\00\00\00 \00\00\00\12\00\00\00 \00\00\00\08\00\00\00 \00\00\00\n\00\00\00 \00\00\00\03\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00b\00\00\00\00\00\00\00 \00\00\00\00\00\00\00a\00\00\00\02\00\00\00 \00\00\00\1e\00\00\00 \00\00\00\00\00\00\000A\82\00\00\00\00\00 \00\00\00\00\00\00\00\"A\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\1e\00\00\00 \00\00\00\1e\00\00\00 \00\00\00\1e\00\00\00 \00\00\00(\00\00\00 \00\00\00\1e\00\00\00 \00\00\00\1e\00\00\00 \00\00\00\1e\00\00\00 \00\00\00\00\00\00\00 \00\00\00\n\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"A\00\00\00\00\00\00 ")
+ (data (i32.const 5644) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00,")
+ (data (i32.const 5676) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00*\00\00\00r\00e\00s\00u\00l\00t\00s\00A\00r\00r\00 \00i\00n\00d\00e\00x\00 \000\00 \00i\00s")
+ (data (i32.const 5836) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00{")
+ (data (i32.const 5868) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00}")
+ (data (i32.const 5900) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\"")
+ (data (i32.const 5932) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\\")
+ (data (i32.const 5964) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00b")
+ (data (i32.const 5996) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\08")
+ (data (i32.const 6028) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00n")
+ (data (i32.const 6060) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\n")
+ (data (i32.const 6092) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00r")
+ (data (i32.const 6124) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\0d")
+ (data (i32.const 6156) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00t")
+ (data (i32.const 6188) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00\t")
+ (data (i32.const 6220) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00u")
+ (data (i32.const 6252) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00:")
+ (data (i32.const 6284) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00[")
+ (data (i32.const 6316) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02\00\00\00]")
+ (data (i32.const 6348) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\n\00\00\00f\00a\00l\00s\00e")
+ (data (i32.const 6380) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\08\00\00\00t\00r\00u\00e")
+ (data (i32.const 6412) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\04\00\00\00-\000")
+ (data (i32.const 6454) "\f0?\00\00\00\00\00\00$@\00\00\00\00\00\00Y@\00\00\00\00\00@\8f@\00\00\00\00\00\88\c3@\00\00\00\00\00j\f8@\00\00\00\00\80\84.A\00\00\00\00\d0\12cA\00\00\00\00\84\d7\97A\00\00\00\00e\cd\cdA\00\00\00 _\a0\02B\00\00\00\e8vH7B\00\00\00\a2\94\1amB\00\00@\e5\9c0\a2B\00\00\90\1e\c4\bc\d6B\00\004&\f5k\0cC\00\80\e07y\c3AC\00\a0\d8\85W4vC\00\c8Ngm\c1\abC\00=\91`\e4X\e1C@\8c\b5x\1d\af\15DP\ef\e2\d6\e4\1aKD\92\d5M\06\cf\f0\80D")
+ (data (i32.const 6636) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\06\00\00\00g\00i\00f")
+ (data (i32.const 6668) "<\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00*\00\00\00r\00e\00s\00u\00l\00t\00G\00i\00f\00 \00s\00t\00r\00i\00n\00g\00 \00i\00s\00:\00 ")
+ (data (i32.const 6732) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00R\00\00\00T\00h\00e\00 \00p\00a\00g\00e\00 \00y\00o\00u\00 \00r\00e\00q\00u\00e\00s\00t\00e\00d\00 \00c\00o\00u\00l\00d\00 \00n\00o\00t\00 \00b\00e\00 \00f\00o\00u\00n\00d")
+ (data (i32.const 6844) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00r\00e\00s\00p\00o\00n\00s\00e\00 \00h\00a\00n\00d\00l\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t")
+ (data (i32.const 6972) "\ac\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\9c\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00f\00a\00s\00t\00l\00y\00-\00d\00o\00w\00n\00s\00t\00r\00e\00a\00m\00/\00f\00a\00s\00t\00l\00y\00-\00d\00o\00w\00n\00s\00t\00r\00e\00a\00m\00-\00r\00e\00s\00p\00o\00n\00s\00e\00.\00t\00s")
+ (data (i32.const 7148) "\1c\00\00\00\01\00\00\00\00\00\00\00\15\00\00\00\08\00\00\00\02")
+ (data (i32.const 7180) "\1c\00\00\00\01\00\00\00\00\00\00\00-\00\00\00\08\00\00\00\03")
+ (data (i32.const 7212) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00`\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00s\00t\00r\00i\00n\00g\00 \00v\00a\00l\00u\00e\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00h\00o\00s\00t\00c\00a\00l\00l")
+ (data (i32.const 7340) "\1c\00\00\00\01\00\00\00\00\00\00\00-\00\00\00\08\00\00\00\04")
+ (data (i32.const 7372) "\1c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\02")
+ (data (i32.const 7404) "\1c\00\00\00\01\00\00\00\00\00\00\000\00\00\00\08\00\00\00\05")
+ (data (i32.const 7436) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00R\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00c\00l\00o\00s\00u\00r\00e\00 \00r\00e\00t\00u\00r\00n\00e\00d\00 \00e\00r\00r\00o\00r")
+ (data (i32.const 7548) "\8c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00t\00\00\00~\00l\00i\00b\00/\00@\00f\00a\00s\00t\00l\00y\00/\00a\00s\00-\00c\00o\00m\00p\00u\00t\00e\00/\00f\00a\00s\00t\00l\00y\00/\00a\00b\00i\00/\00m\00u\00l\00t\00i\00-\00v\00a\00l\00u\00e\00-\00h\00o\00s\00t\00c\00a\00l\00l\00.\00t\00s")
+ (data (i32.const 7692) "\\\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00F\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00b\00u\00f\00f\00e\00r\00 \00t\00o\00o\00 \00s\00m\00a\00l\00l")
+ (data (i32.const 7788) "l\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00V\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00c\00a\00l\00l\00 \00s\00e\00p\00a\00r\00a\00t\00o\00r\00 \00b\00y\00t\00e\00 \00n\00o\00t\00 \00f\00o\00u\00n\00d")
+ (data (i32.const 7900) "|\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00^\00\00\00M\00u\00l\00t\00i\00V\00a\00l\00u\00e\00H\00o\00s\00t\00C\00a\00l\00l\00,\00 \00d\00i\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00t\00h\00e\00 \00h\00e\00a\00d\00e\00r\00 \00n\00a\00m\00e")
+ (data (i32.const 8028) "\1c\00\00\00\01\00\00\00\00\00\00\000\00\00\00\08\00\00\00\06")
+ (data (i32.const 8060) "\9c\00\00\00\01\00\00\00\00\00\00\00\01\00\00\00\8c\00\00\00C\00o\00u\00l\00d\00 \00n\00o\00t\00 \00g\00e\00t\00 \00a\00 \00R\00e\00a\00d\00a\00b\00l\00e\00B\00o\00d\00y\00S\00t\00r\00e\00a\00m\00R\00e\00a\00d\00e\00r\00 \00f\00r\00o\00m\00 \00t\00h\00e\00 \00r\00e\00q\00u\00e\00s\00t\00 \00b\00o\00d\00y\00 \00h\00a\00n\00d\00l\00e\00.")
+ (data (i32.const 8220) "\1c\00\00\00\01\00\00\00\00\00\00\000\00\00\00\08\00\00\00\07")
+ (data (i32.const 8252) "\1c\00\00\00\01\00\00\00\00\00\00\000\00\00\00\08\00\00\00\08")
+ (data (i32.const 8288) "1\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\04\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"A\00\00\00\00\00\000A\82\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\03\00\00\00 \00\00\00\04\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"\t\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\03\00\00\00 \00\00\00\12\00\00\00 \00\00\00\08\00\00\00 \00\00\00\n\00\00\00 \00\00\00\03\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00b\00\00\00\00\00\00\00 \00\00\00\00\00\00\00a\00\00\00\02\00\00\00 \00\00\00\00\00\00\00 \00\00\00\1f\00\00\00 \00\00\00\00\00\00\000A\82\00\00\00\00\00 \00\00\00\00\00\00\00\"A\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00 \00\00\00\1f\00\00\00 \00\00\00\1f\00\00\00 \00\00\00\1f\00\00\00 \00\00\00)\00\00\00 \00\00\00\1f\00\00\00 \00\00\00\1f\00\00\00 \00\00\00\1f\00\00\00 \00\00\00\n\00\00\00 \00\00\00\00\00\00\00 \00\00\00\00\00\00\00\"A\00\00\00\00\00\00 ")
  (table $0 9 funcref)
  (elem (i32.const 1) $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#_writeRequestHeadersToHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-response/FastlyDownstreamResponse#_writeResponseHeadersToHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-request/FastlyDownstreamRequest#_getMethodFromHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-request/FastlyDownstreamRequest#_getUrlFromHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-request/FastlyDownstreamRequest#_getHeadersFromHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-downstream/fastly-downstream-request/FastlyDownstreamRequest#_getHeadersFromHandle~anonymous|1 $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#_getHeadersFromHandle~anonymous|0 $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#_getHeadersFromHandle~anonymous|1)
  (global $~lib/rt/tlsf/ROOT (mut i32) (i32.const 0))
@@ -146,7 +148,7 @@
  (global $~lib/util/string/__fixmulShift (mut i64) (i64.const 0))
  (global $assembly/index/resp (mut i32) (i32.const 0))
  (global $~started (mut i32) (i32.const 0))
- (global $~lib/rt/__rtti_base i32 (i32.const 8160))
+ (global $~lib/rt/__rtti_base i32 (i32.const 8288))
  (export "_start" (func $~start))
  (export "memory" (memory $0))
  (export "__new" (func $~lib/rt/pure/__new))
@@ -157,7 +159,7 @@
  (func $~lib/rt/pure/__retain (param $0 i32) (result i32)
   (local $1 i32)
   local.get $0
-  i32.const 8556
+  i32.const 8684
   i32.gt_u
   if
    local.get $0
@@ -391,7 +393,7 @@
  )
  (func $~lib/rt/pure/__release (param $0 i32)
   local.get $0
-  i32.const 8556
+  i32.const 8684
   i32.gt_u
   if
    local.get $0
@@ -933,10 +935,10 @@
   if
    unreachable
   end
-  i32.const 8560
+  i32.const 8688
   i32.const 0
   i32.store
-  i32.const 10128
+  i32.const 10256
   i32.const 0
   i32.store
   loop $for-loop|0
@@ -947,7 +949,7 @@
     local.get $1
     i32.const 2
     i32.shl
-    i32.const 8560
+    i32.const 8688
     i32.add
     i32.const 0
     i32.store offset=4
@@ -965,7 +967,7 @@
       i32.add
       i32.const 2
       i32.shl
-      i32.const 8560
+      i32.const 8688
       i32.add
       i32.const 0
       i32.store offset=96
@@ -983,13 +985,13 @@
     br $for-loop|0
    end
   end
-  i32.const 8560
-  i32.const 10132
+  i32.const 8688
+  i32.const 10260
   memory.size
   i32.const 16
   i32.shl
   call $~lib/rt/tlsf/addMemory
-  i32.const 8560
+  i32.const 8688
   global.set $~lib/rt/tlsf/ROOT
  )
  (func $~lib/rt/tlsf/prepareSize (param $0 i32) (result i32)
@@ -1538,7 +1540,7 @@
   i32.and
   call $~lib/memory/memory.copy
   local.get $1
-  i32.const 8556
+  i32.const 8684
   i32.ge_u
   if
    local.get $0
@@ -1580,7 +1582,7 @@
   i32.add
   local.set $2
   local.get $0
-  i32.const 8556
+  i32.const 8684
   i32.lt_u
   if
    global.get $~lib/rt/tlsf/ROOT
@@ -2167,7 +2169,7 @@
  )
  (func $~lib/rt/tlsf/__free (param $0 i32)
   local.get $0
-  i32.const 8556
+  i32.const 8684
   i32.lt_u
   if
    return
@@ -5695,13 +5697,91 @@
   local.get $0
   call $~lib/rt/pure/__release
  )
+ (func $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#text (param $0 i32) (result i32)
+  local.get $0
+  i32.load8_u offset=34
+  i32.eqz
+  if
+   local.get $0
+   call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#_getBodyFromHandle
+  end
+  block $__inlined_func$~lib/@fastly/as-fetch/body/Body#text (result i32)
+   local.get $0
+   call $~lib/@fastly/as-fetch/body/Body#_consumeBody
+   i32.const 1440
+   local.get $0
+   i32.load
+   i32.eqz
+   br_if $__inlined_func$~lib/@fastly/as-fetch/body/Body#text
+   drop
+   local.get $0
+   i32.load
+   i32.const 0
+   call $~lib/string/String.UTF8.decode
+  end
+ )
+ (func $~lib/as-wasi/as-wasi/Console.log (param $0 i32)
+  (local $1 i32)
+  (local $2 i32)
+  (local $3 i32)
+  (local $4 i32)
+  (local $5 i32)
+  local.get $0
+  call $~lib/rt/pure/__retain
+  local.tee $2
+  call $~lib/rt/pure/__retain
+  local.tee $0
+  call $~lib/rt/pure/__retain
+  local.tee $3
+  call $~lib/rt/pure/__retain
+  local.tee $4
+  call $~lib/string/String.UTF8.encode
+  local.tee $1
+  i32.const 20
+  i32.sub
+  i32.load offset=16
+  local.set $5
+  i32.const 5744
+  local.get $1
+  i32.store
+  i32.const 5748
+  local.get $5
+  i32.store
+  i32.const 5776
+  i32.const 10
+  i32.store8
+  i32.const 5752
+  i32.const 5776
+  i32.store
+  i32.const 5756
+  i32.const 1
+  i32.store
+  i32.const 1
+  i32.const 5744
+  i32.const 2
+  i32.const 5792
+  call $~lib/bindings/wasi_snapshot_preview1/fd_write
+  drop
+  local.get $1
+  call $~lib/rt/pure/__release
+  local.get $4
+  call $~lib/rt/pure/__release
+  local.get $3
+  call $~lib/rt/pure/__release
+  i32.const 1
+  call $~lib/rt/pure/__release
+  local.get $0
+  call $~lib/rt/pure/__release
+  local.get $2
+  call $~lib/rt/pure/__release
+ )
  (func $~lib/array/Array<~lib/assemblyscript-json/JSON/Value>#constructor (result i32)
   (local $0 i32)
   (local $1 i32)
   (local $2 i32)
   (local $3 i32)
   i32.const 16
-  i32.const 33
+  i32.const 34
   call $~lib/rt/pure/__new
   call $~lib/rt/pure/__retain
   local.tee $3
@@ -5883,7 +5963,7 @@
    local.get $0
   else
    i32.const 0
-   i32.const 30
+   i32.const 31
    call $~lib/rt/pure/__new
    call $~lib/rt/pure/__retain
   end
@@ -5904,7 +5984,7 @@
   i32.sub
   i32.load offset=12
   local.tee $0
-  i32.const 8160
+  i32.const 8288
   i32.load
   i32.le_u
   if
@@ -5919,7 +5999,7 @@
     local.get $0
     i32.const 3
     i32.shl
-    i32.const 8164
+    i32.const 8292
     i32.add
     i32.load offset=4
     local.tee $0
@@ -5970,7 +6050,7 @@
   local.tee $5
   if (result i32)
    local.get $5
-   i32.const 29
+   i32.const 30
    call $~lib/rt/__instanceof
   else
    i32.const 0
@@ -6024,7 +6104,7 @@
    local.tee $2
    if (result i32)
     local.get $2
-    i32.const 36
+    i32.const 37
     call $~lib/rt/__instanceof
    else
     i32.const 0
@@ -6141,45 +6221,9 @@
   local.get $0
   call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readChar
   local.tee $1
-  i32.const 5760
+  i32.const 5920
   i32.const 0
   call $~lib/string/String#charCodeAt
-  i32.eq
-  if
-   i32.const 5760
-   return
-  end
-  i32.const 5792
-  i32.const 0
-  call $~lib/string/String#charCodeAt
-  local.get $1
-  i32.eq
-  if
-   i32.const 5792
-   return
-  end
-  i32.const 2240
-  i32.const 0
-  call $~lib/string/String#charCodeAt
-  local.get $1
-  i32.eq
-  if
-   i32.const 2240
-   return
-  end
-  i32.const 5824
-  i32.const 0
-  call $~lib/string/String#charCodeAt
-  local.get $1
-  i32.eq
-  if
-   i32.const 5856
-   return
-  end
-  i32.const 5888
-  i32.const 0
-  call $~lib/string/String#charCodeAt
-  local.get $1
   i32.eq
   if
    i32.const 5920
@@ -6191,19 +6235,55 @@
   local.get $1
   i32.eq
   if
-   i32.const 5984
+   i32.const 5952
    return
   end
-  i32.const 6016
+  i32.const 2240
   i32.const 0
   call $~lib/string/String#charCodeAt
   local.get $1
   i32.eq
   if
-   i32.const 6048
+   i32.const 2240
    return
   end
-  i32.const 6080
+  i32.const 5984
+  i32.const 0
+  call $~lib/string/String#charCodeAt
+  local.get $1
+  i32.eq
+  if
+   i32.const 6016
+   return
+  end
+  i32.const 6048
+  i32.const 0
+  call $~lib/string/String#charCodeAt
+  local.get $1
+  i32.eq
+  if
+   i32.const 6080
+   return
+  end
+  i32.const 6112
+  i32.const 0
+  call $~lib/string/String#charCodeAt
+  local.get $1
+  i32.eq
+  if
+   i32.const 6144
+   return
+  end
+  i32.const 6176
+  i32.const 0
+  call $~lib/string/String#charCodeAt
+  local.get $1
+  i32.eq
+  if
+   i32.const 6208
+   return
+  end
+  i32.const 6240
   i32.const 0
   call $~lib/string/String#charCodeAt
   local.get $1
@@ -6275,7 +6355,7 @@
   (local $6 i32)
   local.get $0
   call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readChar
-  i32.const 5760
+  i32.const 5920
   i32.const 0
   call $~lib/string/String#charCodeAt
   i32.eq
@@ -6293,7 +6373,7 @@
    local.get $0
    call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readChar
    local.tee $1
-   i32.const 5760
+   i32.const 5920
    i32.const 0
    call $~lib/string/String#charCodeAt
    i32.eq
@@ -6337,7 +6417,7 @@
     local.get $3
     call $~lib/rt/pure/__release
    else
-    i32.const 5792
+    i32.const 5952
     i32.const 0
     call $~lib/string/String#charCodeAt
     local.get $1
@@ -6416,7 +6496,7 @@
   (local $7 i32)
   local.get $0
   call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#peekChar
-  i32.const 5664
+  i32.const 5856
   i32.const 0
   call $~lib/string/String#charCodeAt
   i32.ne
@@ -6448,7 +6528,7 @@
   call $~lib/rt/pure/__retain
   local.set $6
   i32.const 8
-  i32.const 29
+  i32.const 30
   call $~lib/rt/pure/__new
   call $~lib/rt/pure/__retain
   local.tee $1
@@ -6461,7 +6541,7 @@
   call $~lib/assemblyscript-json/JSON/Value#constructor
   local.set $1
   i32.const 24
-  i32.const 31
+  i32.const 32
   call $~lib/rt/pure/__new
   call $~lib/rt/pure/__retain
   local.tee $2
@@ -6521,7 +6601,7 @@
   loop $while-continue|0
    local.get $0
    call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#peekChar
-   i32.const 5696
+   i32.const 5888
    i32.const 0
    call $~lib/string/String#charCodeAt
    i32.ne
@@ -6533,7 +6613,7 @@
     else
      local.get $0
      call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readChar
-     i32.const 5728
+     i32.const 5664
      i32.const 0
      call $~lib/string/String#charCodeAt
      i32.eq
@@ -6558,7 +6638,7 @@
     call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#skipWhitespace
     local.get $0
     call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readChar
-    i32.const 6112
+    i32.const 6272
     i32.const 0
     call $~lib/string/String#charCodeAt
     i32.eq
@@ -6572,7 +6652,7 @@
   end
   local.get $0
   call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readChar
-  i32.const 5696
+  i32.const 5888
   i32.const 0
   call $~lib/string/String#charCodeAt
   i32.eq
@@ -6597,7 +6677,7 @@
   (local $7 i32)
   local.get $0
   call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#peekChar
-  i32.const 6144
+  i32.const 6304
   i32.const 0
   call $~lib/string/String#charCodeAt
   i32.ne
@@ -6629,7 +6709,7 @@
   call $~lib/rt/pure/__retain
   local.set $5
   i32.const 4
-  i32.const 36
+  i32.const 37
   call $~lib/rt/pure/__new
   call $~lib/rt/pure/__retain
   local.tee $1
@@ -6673,7 +6753,7 @@
   loop $while-continue|0
    local.get $0
    call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#peekChar
-   i32.const 6176
+   i32.const 6336
    i32.const 0
    call $~lib/string/String#charCodeAt
    i32.ne
@@ -6685,7 +6765,7 @@
     else
      local.get $0
      call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readChar
-     i32.const 5728
+     i32.const 5664
      i32.const 0
      call $~lib/string/String#charCodeAt
      i32.eq
@@ -6698,7 +6778,7 @@
   end
   local.get $0
   call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readChar
-  i32.const 6176
+  i32.const 6336
   i32.const 0
   call $~lib/string/String#charCodeAt
   i32.eq
@@ -6751,7 +6831,7 @@
   call $~lib/rt/pure/__retain
   local.tee $1
   i32.const 1
-  i32.const 38
+  i32.const 39
   call $~lib/rt/pure/__new
   call $~lib/rt/pure/__retain
   local.tee $0
@@ -7413,7 +7493,7 @@
      local.get $0
      i32.const 3
      i32.shl
-     i32.const 6112
+     i32.const 6272
      i32.add
      f64.load
      f64.mul
@@ -7447,7 +7527,7 @@
       local.get $0
       i32.const 3
       i32.shl
-      i32.const 6288
+      i32.const 6448
       i32.add
       f64.load
       f64.mul
@@ -7459,7 +7539,7 @@
      i32.sub
      i32.const 3
      i32.shl
-     i32.const 6288
+     i32.const 6448
      i32.add
      f64.load
      f64.div
@@ -7876,7 +7956,7 @@
     i32.const 1
    else
     local.get $1
-    i32.const 6272
+    i32.const 6432
     call $~lib/string/String.__eq
    end
    if
@@ -7897,14 +7977,14 @@
     call $~lib/rt/pure/__retain
     local.tee $4
     i32.const 8
-    i32.const 39
+    i32.const 40
     call $~lib/rt/pure/__new
     call $~lib/rt/pure/__retain
     local.tee $2
     i32.eqz
     if
      i32.const 8
-     i32.const 40
+     i32.const 41
      call $~lib/rt/pure/__new
      call $~lib/rt/pure/__retain
      local.set $2
@@ -7937,7 +8017,7 @@
     call $~lib/rt/pure/__retain
     local.set $3
     i32.const 8
-    i32.const 41
+    i32.const 42
     call $~lib/rt/pure/__new
     call $~lib/rt/pure/__retain
     local.tee $4
@@ -7991,7 +8071,7 @@
     i32.const 0
     local.get $0
     call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#peekChar
-    i32.const 5760
+    i32.const 5920
     i32.const 0
     call $~lib/string/String#charCodeAt
     i32.ne
@@ -8015,7 +8095,7 @@
     call $~lib/rt/pure/__retain
     local.set $1
     i32.const 4
-    i32.const 37
+    i32.const 38
     call $~lib/rt/pure/__new
     call $~lib/rt/pure/__retain
     local.tee $4
@@ -8053,13 +8133,13 @@
    block $__inlined_func$~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#parseBoolean (result i32)
     local.get $0
     call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#peekChar
-    i32.const 6208
+    i32.const 6368
     i32.const 0
     call $~lib/string/String#charCodeAt
     i32.eq
     if
      local.get $0
-     i32.const 6208
+     i32.const 6368
      call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readAndAssert
      local.get $0
      i32.load
@@ -8077,13 +8157,13 @@
     end
     local.get $0
     call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#peekChar
-    i32.const 6240
+    i32.const 6400
     i32.const 0
     call $~lib/string/String#charCodeAt
     i32.eq
     if
      local.get $0
-     i32.const 6240
+     i32.const 6400
      call $~lib/assemblyscript-json/decoder/JSONDecoder<~lib/assemblyscript-json/JSON/Handler>#readAndAssert
      local.get $0
      i32.load
@@ -8132,7 +8212,7 @@
     call $~lib/rt/pure/__retain
     local.tee $2
     i32.const 0
-    i32.const 42
+    i32.const 43
     call $~lib/rt/pure/__new
     call $~lib/rt/pure/__retain
     call $~lib/assemblyscript-json/JSON/Value#constructor
@@ -8195,7 +8275,7 @@
   call $~lib/rt/pure/__retain
   local.set $4
   i32.const 12
-  i32.const 35
+  i32.const 36
   call $~lib/rt/pure/__new
   call $~lib/rt/pure/__retain
   local.tee $2
@@ -8299,6 +8379,7 @@
   (local $31 i32)
   (local $32 i32)
   (local $33 i32)
+  (local $34 i32)
   local.get $0
   call $~lib/rt/pure/__retain
   local.set $9
@@ -8306,7 +8387,7 @@
   i32.const 2000
   call $~lib/rt/__newArray
   call $~lib/rt/pure/__retain
-  local.tee $14
+  local.tee $13
   local.set $1
   i32.const 0
   local.set $0
@@ -8316,18 +8397,18 @@
   call $~lib/rt/pure/__retain
   local.tee $2
   call $~lib/rt/pure/__retain
-  local.set $3
+  local.set $5
   block $__inlined_func$~lib/array/Array<~lib/string/String>#indexOf
-   local.get $14
+   local.get $13
    i32.load offset=12
-   local.tee $5
+   local.tee $4
    i32.const 0
    i32.le_s
    i32.const 1
-   local.get $5
+   local.get $4
    select
    if
-    local.get $3
+    local.get $5
     call $~lib/rt/pure/__release
     i32.const -1
     local.set $0
@@ -8338,7 +8419,7 @@
    local.set $1
    loop $while-continue|0
     local.get $0
-    local.get $5
+    local.get $4
     i32.lt_s
     if
      local.get $1
@@ -8347,10 +8428,10 @@
      i32.shl
      i32.add
      i32.load
-     local.get $3
+     local.get $5
      call $~lib/string/String.__eq
      if
-      local.get $3
+      local.get $5
       call $~lib/rt/pure/__release
       br $__inlined_func$~lib/array/Array<~lib/string/String>#indexOf
      end
@@ -8361,7 +8442,7 @@
      br $while-continue|0
     end
    end
-   local.get $3
+   local.get $5
    call $~lib/rt/pure/__release
    i32.const -1
    local.set $0
@@ -8397,42 +8478,42 @@
    call $~lib/rt/pure/__release
    local.get $17
    call $~lib/rt/pure/__release
-   local.get $14
+   local.get $13
    call $~lib/rt/pure/__release
    return
   end
   local.get $9
   call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
-  local.tee $19
+  local.tee $21
   call $~lib/rt/pure/__retain
-  local.set $15
+  local.set $14
   local.get $9
   call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
-  local.tee $20
+  local.tee $22
   i32.const 2112
   call $~lib/string/String#split
-  local.tee $21
+  local.tee $23
   call $~lib/array/Array<~lib/string/String>#pop
-  local.tee $22
+  local.tee $24
   i32.const 2240
   call $~lib/string/String#split
   local.tee $18
   call $~lib/array/Array<~lib/string/String>#shift
-  local.set $23
+  local.set $25
   i32.const 2240
   local.get $18
   i32.const 2240
   call $~lib/array/Array<~lib/string/String>#join
-  local.tee $24
+  local.tee $26
   call $~lib/string/String.__concat
-  local.tee $25
+  local.tee $27
   call $~lib/rt/pure/__retain
-  local.set $10
-  local.get $15
+  local.set $5
+  local.get $14
   i32.const 1296
   call $~lib/string/String.__eq
   if (result i32)
-   local.get $10
+   local.get $5
    i32.const 2240
    call $~lib/string/String.__eq
   else
@@ -8464,31 +8545,31 @@
    call $~lib/rt/pure/__release
    local.get $17
    call $~lib/rt/pure/__release
+   local.get $13
+   call $~lib/rt/pure/__release
    local.get $14
-   call $~lib/rt/pure/__release
-   local.get $15
-   call $~lib/rt/pure/__release
-   local.get $19
-   call $~lib/rt/pure/__release
-   local.get $20
    call $~lib/rt/pure/__release
    local.get $21
    call $~lib/rt/pure/__release
    local.get $22
    call $~lib/rt/pure/__release
-   local.get $18
-   call $~lib/rt/pure/__release
    local.get $23
    call $~lib/rt/pure/__release
    local.get $24
    call $~lib/rt/pure/__release
+   local.get $18
+   call $~lib/rt/pure/__release
    local.get $25
    call $~lib/rt/pure/__release
-   local.get $10
+   local.get $26
+   call $~lib/rt/pure/__release
+   local.get $27
+   call $~lib/rt/pure/__release
+   local.get $5
    call $~lib/rt/pure/__release
    return
   end
-  local.get $15
+  local.get $14
   i32.const 1296
   call $~lib/string/String.__eq
   if
@@ -8509,7 +8590,7 @@
     local.tee $2
     local.set $0
     i32.const 0
-    local.get $10
+    local.get $5
     i32.const 20
     i32.sub
     i32.load offset=16
@@ -8518,7 +8599,7 @@
     local.tee $3
     local.get $3
     select
-    local.tee $5
+    local.tee $4
     local.get $2
     i32.add
     local.get $3
@@ -8530,8 +8611,8 @@
      local.set $0
      br $__inlined_func$~lib/string/String#startsWith
     end
-    local.get $10
     local.get $5
+    local.get $4
     i32.const 2352
     local.get $0
     call $~lib/util/string/compareImpl
@@ -8548,24 +8629,24 @@
   if
    i32.const 0
    i32.const 2576
-   local.get $10
+   local.get $5
    i32.const 2240
    call $~lib/string/String#split
-   local.tee $28
+   local.tee $29
    i32.const 2
    call $~lib/array/Array<~lib/string/String>#__get
-   local.tee $29
-   call $~lib/string/String.__concat
    local.tee $30
-   call $~lib/rt/pure/__retain
+   call $~lib/string/String.__concat
    local.tee $31
+   call $~lib/rt/pure/__retain
+   local.tee $32
    i32.const 0
    call $~lib/@fastly/as-fetch/request/RequestInit#constructor
-   local.tee $32
-   call $~lib/@fastly/as-fetch/request/Request#constructor
-   local.tee $26
-   call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
    local.tee $33
+   call $~lib/@fastly/as-fetch/request/Request#constructor
+   local.tee $28
+   call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
+   local.tee $34
    i32.const 2720
    i32.const 2752
    call $~lib/@fastly/as-fetch/headers/Headers#set
@@ -8573,70 +8654,70 @@
    i32.const 14
    call $~lib/rt/pure/__new
    call $~lib/rt/pure/__retain
-   local.tee $11
+   local.tee $10
    i32.const 0
    i32.store8
-   local.get $11
+   local.get $10
    i32.const 0
    i32.store8 offset=1
-   local.get $11
+   local.get $10
    i32.const 0
    i32.store offset=4
-   local.get $11
+   local.get $10
    i32.const 0
    i32.store8 offset=8
-   local.get $11
+   local.get $10
    i32.const 0
    i32.store offset=12
-   local.get $11
+   local.get $10
    i32.const 1
    i32.store8
    i32.const 8
    i32.const 15
    call $~lib/rt/pure/__new
    call $~lib/rt/pure/__retain
-   local.tee $16
+   local.tee $15
    i32.const 0
    i32.store
-   local.get $16
+   local.get $15
    i32.const 0
    i32.store offset=4
-   local.get $16
+   local.get $15
    i32.const 1248
    i32.store
-   local.get $16
-   local.get $11
+   local.get $15
+   local.get $10
    call $~lib/rt/pure/__retain
    i32.store offset=4
-   local.get $26
+   local.get $28
    call $~lib/rt/pure/__retain
    local.set $8
-   local.get $16
+   local.get $15
    call $~lib/rt/pure/__retain
-   local.set $6
+   local.set $16
    local.get $8
    call $~lib/@fastly/as-fetch/request/Request#get:url@virtual
-   local.set $7
+   local.set $19
    i32.const 0
    call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit#constructor
-   local.tee $12
+   local.tee $6
    local.get $8
    call $~lib/@fastly/as-fetch/request/Request#get:method@virtual
    local.tee $3
    call $~lib/rt/pure/__retain
    i32.store
-   local.get $12
+   local.get $6
    local.get $8
    call $~lib/@fastly/as-fetch/request/Request#get:headers@virtual
    local.tee $2
    call $~lib/rt/pure/__retain
    i32.store offset=4
-   local.get $12
+   local.get $6
    local.get $8
    call $~lib/@fastly/as-fetch/body/Body#arrayBuffer@virtual
    i32.store offset=8
-   local.get $12
    local.get $6
+   local.get $16
    i32.load offset=4
    call $~lib/rt/pure/__retain
    i32.store offset=12
@@ -8651,17 +8732,17 @@
    i32.const 0
    i32.store offset=28
    local.get $0
-   local.get $7
+   local.get $19
    call $~lib/rt/pure/__retain
    local.tee $1
-   local.get $12
+   local.get $6
    call $~lib/rt/pure/__retain
-   local.tee $4
+   local.tee $7
    call $~lib/@fastly/as-fetch/request/Request#constructor
-   local.set $13
+   local.set $11
    i32.const 4
    call $~lib/rt/tlsf/__alloc
-   local.tee $5
+   local.tee $4
    call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_req_new
    if
     i32.const 3104
@@ -8671,53 +8752,53 @@
     call $~lib/wasi/index/abort
     unreachable
    end
-   local.get $5
+   local.get $4
    i32.load
    local.set $0
-   local.get $5
+   local.get $4
    call $~lib/rt/tlsf/__free
-   local.get $13
+   local.get $11
    local.get $0
    i32.store offset=24
-   local.get $4
+   local.get $7
    i32.load offset=12
-   local.tee $5
-   local.get $13
+   local.tee $4
+   local.get $11
    i32.load offset=28
    local.tee $0
    i32.ne
    if
-    local.get $5
+    local.get $4
     call $~lib/rt/pure/__retain
-    local.set $5
+    local.set $4
     local.get $0
     call $~lib/rt/pure/__release
    end
-   local.get $13
-   local.get $5
+   local.get $11
+   local.get $4
    i32.store offset=28
    local.get $1
    call $~lib/rt/pure/__release
-   local.get $4
-   call $~lib/rt/pure/__release
-   local.get $13
-   local.get $6
-   i32.load
-   call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#send
-   local.set $5
    local.get $7
    call $~lib/rt/pure/__release
-   local.get $12
+   local.get $11
+   local.get $16
+   i32.load
+   call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequest#send
+   local.set $4
+   local.get $19
+   call $~lib/rt/pure/__release
+   local.get $6
    call $~lib/rt/pure/__release
    local.get $3
    call $~lib/rt/pure/__release
    local.get $2
    call $~lib/rt/pure/__release
-   local.get $13
+   local.get $11
    call $~lib/rt/pure/__release
    local.get $8
    call $~lib/rt/pure/__release
-   local.get $6
+   local.get $16
    call $~lib/rt/pure/__release
    i32.const 4
    call $~lib/rt/tlsf/__alloc
@@ -8725,7 +8806,7 @@
    i32.const 4
    call $~lib/rt/tlsf/__alloc
    local.set $0
-   local.get $5
+   local.get $4
    i32.load offset=24
    local.get $3
    local.get $0
@@ -8748,25 +8829,25 @@
    call $~lib/rt/tlsf/__free
    local.get $0
    call $~lib/rt/tlsf/__free
-   local.get $5
+   local.get $4
    i32.load offset=8
    i32.const 35
    i32.const 19
    call $~lib/rt/pure/__new
    call $~lib/rt/pure/__retain
-   local.tee $4
+   local.tee $7
    i32.const 0
    i32.store offset=24
-   local.get $4
+   local.get $7
    i32.const 0
    i32.store offset=28
-   local.get $4
+   local.get $7
    i32.const 0
    i32.store8 offset=32
-   local.get $4
+   local.get $7
    i32.const 0
    i32.store8 offset=33
-   local.get $4
+   local.get $7
    i32.const 0
    i32.store8 offset=34
    call $~lib/rt/pure/__retain
@@ -8782,59 +8863,55 @@
    local.get $0
    call $~lib/rt/pure/__retain
    i32.store offset=8
-   local.get $4
+   local.get $7
    i32.const 0
    local.get $3
    call $~lib/@fastly/as-fetch/response/Response#constructor
-   local.tee $4
+   local.tee $12
    local.get $2
    i32.store offset=24
-   local.get $4
+   local.get $12
    local.get $1
    i32.store offset=28
-   local.get $4
+   local.get $12
    i32.const 0
    i32.store8 offset=32
-   local.get $4
+   local.get $12
    i32.const 0
    i32.store8 offset=33
-   local.get $4
+   local.get $12
    i32.const 0
    i32.store8 offset=34
    local.get $3
    call $~lib/rt/pure/__release
    local.get $0
    call $~lib/rt/pure/__release
-   local.get $4
-   i32.load8_u offset=34
-   i32.eqz
-   if
-    local.get $4
-    call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#_getBodyFromHandle
-   end
-   block $__inlined_func$~lib/@fastly/as-fetch/body/Body#text (result i32)
-    local.get $4
-    call $~lib/@fastly/as-fetch/body/Body#_consumeBody
-    i32.const 1440
-    local.get $4
-    i32.load
-    i32.eqz
-    br_if $__inlined_func$~lib/@fastly/as-fetch/body/Body#text
-    drop
-    local.get $4
-    i32.load
-    i32.const 0
-    call $~lib/string/String.UTF8.decode
-   end
-   local.tee $3
+   local.get $12
+   call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#text
+   local.tee $11
+   i32.const 5664
+   call $~lib/string/String#split
+   local.tee $8
+   i32.const 0
+   call $~lib/array/Array<~lib/string/String>#__get
+   local.tee $16
    call $~lib/rt/pure/__retain
+   local.tee $0
+   i32.const 5696
+   local.get $0
+   call $~lib/string/String.__concat
+   local.tee $7
+   call $~lib/as-wasi/as-wasi/Console.log
+   local.get $8
+   i32.const 0
+   call $~lib/array/Array<~lib/string/String>#__get
    local.tee $0
    call $~lib/assemblyscript-json/JSON/_JSON.parse<~lib/string/String>
    local.set $2
    local.get $0
    call $~lib/rt/pure/__release
    block $__inlined_func$~lib/assemblyscript-json/JSON/Obj#get (result i32)
-    i32.const 6496
+    i32.const 6656
     call $~lib/rt/pure/__retain
     local.set $0
     i32.const 0
@@ -8861,7 +8938,7 @@
      local.get $1
      if (result i32)
       local.get $1
-      i32.const 37
+      i32.const 38
       call $~lib/rt/__instanceof
      else
       i32.const 0
@@ -8877,92 +8954,52 @@
    block $__inlined_func$~lib/assemblyscript-json/JSON/Obj#getString (result i32)
     local.get $6
     if
-     i32.const 6496
+     i32.const 6656
      call $~lib/rt/pure/__release
      local.get $1
      br $__inlined_func$~lib/assemblyscript-json/JSON/Obj#getString
     end
     local.get $1
     call $~lib/rt/pure/__release
-    i32.const 6496
+    i32.const 6656
     call $~lib/rt/pure/__release
     i32.const 0
    end
    local.tee $0
    if
+    i32.const 6688
     local.get $0
     i32.load
     call $~lib/rt/pure/__retain
-    local.tee $12
-    call $~lib/rt/pure/__retain
-    local.tee $13
-    call $~lib/rt/pure/__retain
-    local.tee $27
-    call $~lib/rt/pure/__retain
-    local.tee $6
-    call $~lib/rt/pure/__retain
-    local.tee $7
-    call $~lib/string/String.UTF8.encode
-    local.tee $8
-    i32.const 20
-    i32.sub
-    i32.load offset=16
-    local.set $1
-    i32.const 6512
-    local.get $8
-    i32.store
-    i32.const 6516
+    local.tee $3
+    call $~lib/string/String.__concat
+    local.tee $1
+    call $~lib/as-wasi/as-wasi/Console.log
+    local.get $3
+    call $~lib/rt/pure/__release
     local.get $1
-    i32.store
-    i32.const 6544
-    i32.const 10
-    i32.store8
-    i32.const 6520
-    i32.const 6544
-    i32.store
-    i32.const 6524
-    i32.const 1
-    i32.store
-    i32.const 1
-    i32.const 6512
-    i32.const 2
-    i32.const 6560
-    call $~lib/bindings/wasi_snapshot_preview1/fd_write
-    drop
-    local.get $8
-    call $~lib/rt/pure/__release
-    local.get $7
-    call $~lib/rt/pure/__release
-    local.get $6
-    call $~lib/rt/pure/__release
-    i32.const 1
-    call $~lib/rt/pure/__release
-    local.get $27
-    call $~lib/rt/pure/__release
-    local.get $13
-    call $~lib/rt/pure/__release
-    local.get $12
     call $~lib/rt/pure/__release
    end
-   local.get $3
+   local.get $12
+   call $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-response/FastlyUpstreamResponse#text
+   local.tee $3
    call $~lib/string/String.UTF8.encode
-   local.set $7
+   local.set $6
    call $~lib/@fastly/as-fetch/response/ResponseInit#constructor
-   local.tee $6
+   local.tee $20
    i32.const 200
    i32.store16
-   local.get $6
+   local.get $20
    i32.const 0
    i32.store offset=4
-   local.get $6
+   local.get $20
    i32.const 0
    i32.store offset=8
    i32.const 0
-   local.get $7
    local.get $6
+   local.get $20
    call $~lib/@fastly/as-fetch/response/Response#constructor
-   local.get $28
-   call $~lib/rt/pure/__release
+   local.set $1
    local.get $29
    call $~lib/rt/pure/__release
    local.get $30
@@ -8971,57 +9008,69 @@
    call $~lib/rt/pure/__release
    local.get $32
    call $~lib/rt/pure/__release
-   local.get $26
-   call $~lib/rt/pure/__release
    local.get $33
    call $~lib/rt/pure/__release
-   local.get $11
+   local.get $28
    call $~lib/rt/pure/__release
-   local.get $16
+   local.get $34
    call $~lib/rt/pure/__release
-   local.get $5
+   local.get $10
+   call $~lib/rt/pure/__release
+   local.get $15
    call $~lib/rt/pure/__release
    local.get $4
    call $~lib/rt/pure/__release
-   local.get $3
+   local.get $12
+   call $~lib/rt/pure/__release
+   local.get $11
+   call $~lib/rt/pure/__release
+   local.get $8
+   call $~lib/rt/pure/__release
+   local.get $16
+   call $~lib/rt/pure/__release
+   call $~lib/rt/pure/__release
+   local.get $7
    call $~lib/rt/pure/__release
    local.get $2
    call $~lib/rt/pure/__release
    local.get $0
    call $~lib/rt/pure/__release
-   local.get $7
+   local.get $3
    call $~lib/rt/pure/__release
    local.get $6
+   call $~lib/rt/pure/__release
+   local.get $20
    call $~lib/rt/pure/__release
    local.get $9
    call $~lib/rt/pure/__release
    local.get $17
    call $~lib/rt/pure/__release
+   local.get $13
+   call $~lib/rt/pure/__release
    local.get $14
-   call $~lib/rt/pure/__release
-   local.get $15
-   call $~lib/rt/pure/__release
-   local.get $19
-   call $~lib/rt/pure/__release
-   local.get $20
    call $~lib/rt/pure/__release
    local.get $21
    call $~lib/rt/pure/__release
    local.get $22
    call $~lib/rt/pure/__release
-   local.get $18
-   call $~lib/rt/pure/__release
    local.get $23
    call $~lib/rt/pure/__release
    local.get $24
    call $~lib/rt/pure/__release
+   local.get $18
+   call $~lib/rt/pure/__release
    local.get $25
    call $~lib/rt/pure/__release
-   local.get $10
+   local.get $26
    call $~lib/rt/pure/__release
+   local.get $27
+   call $~lib/rt/pure/__release
+   local.get $5
+   call $~lib/rt/pure/__release
+   local.get $1
    return
   end
-  i32.const 6624
+  i32.const 6752
   call $~lib/string/String.UTF8.encode
   local.set $1
   call $~lib/@fastly/as-fetch/response/ResponseInit#constructor
@@ -9038,29 +9087,29 @@
   local.get $1
   local.get $2
   call $~lib/@fastly/as-fetch/response/Response#constructor
-  local.get $14
+  local.get $13
   call $~lib/rt/pure/__release
   local.get $17
   call $~lib/rt/pure/__release
-  local.get $19
-  call $~lib/rt/pure/__release
-  local.get $15
-  call $~lib/rt/pure/__release
-  local.get $20
-  call $~lib/rt/pure/__release
   local.get $21
   call $~lib/rt/pure/__release
-  local.get $22
+  local.get $14
   call $~lib/rt/pure/__release
-  local.get $18
+  local.get $22
   call $~lib/rt/pure/__release
   local.get $23
   call $~lib/rt/pure/__release
   local.get $24
   call $~lib/rt/pure/__release
+  local.get $18
+  call $~lib/rt/pure/__release
   local.get $25
   call $~lib/rt/pure/__release
-  local.get $10
+  local.get $26
+  call $~lib/rt/pure/__release
+  local.get $27
+  call $~lib/rt/pure/__release
+  local.get $5
   call $~lib/rt/pure/__release
   local.get $1
   call $~lib/rt/pure/__release
@@ -9090,7 +9139,7 @@
   call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_resp_header_insert
   if
    i32.const 3760
-   i32.const 6864
+   i32.const 6992
    i32.const 73
    i32.const 11
    call $~lib/wasi/index/abort
@@ -9188,7 +9237,7 @@
   local.get $0
   global.set $assembly/index/req
   i32.const 4
-  i32.const 32
+  i32.const 33
   call $~lib/rt/pure/__new
   call $~lib/rt/pure/__retain
   local.tee $0
@@ -9198,7 +9247,7 @@
   global.set $~lib/assemblyscript-json/JSON/_JSON.handler
   global.get $~lib/assemblyscript-json/JSON/_JSON.handler
   i32.const 8
-  i32.const 34
+  i32.const 35
   call $~lib/rt/pure/__new
   call $~lib/rt/pure/__retain
   local.tee $0
@@ -9276,8 +9325,8 @@
   local.tee $3
   call $~lib/@fastly/as-compute/fastly/abi/abi/fastly_http_resp_new
   if
-   i32.const 6736
    i32.const 6864
+   i32.const 6992
    i32.const 38
    i32.const 7
    call $~lib/wasi/index/abort
@@ -9309,7 +9358,7 @@
   local.tee $3
   local.get $0
   i32.load offset=24
-  i32.const 7040
+  i32.const 7168
   call $~lib/@fastly/as-compute/util/writeHeadersToHandle
   local.get $3
   call $~lib/rt/pure/__release
@@ -9437,7 +9486,7 @@
     i32.load
     call_indirect (type $i32_i32_i32_=>_i32)
     if
-     i32.const 7104
+     i32.const 7232
      i32.const 4160
      i32.const 48
      i32.const 7
@@ -9477,7 +9526,7 @@
    if
     local.get $0
     i32.load offset=24
-    i32.const 7072
+    i32.const 7200
     call $~lib/@fastly/as-compute/util/getStringFromHandle
     local.tee $2
     local.tee $1
@@ -9544,7 +9593,7 @@
    if
     local.get $0
     i32.load offset=24
-    i32.const 7232
+    i32.const 7360
     call $~lib/@fastly/as-compute/util/getStringFromHandle
     local.tee $2
     local.tee $1
@@ -9624,7 +9673,7 @@
   local.get $4
   local.get $0
   i32.store
-  i32.const 7264
+  i32.const 7392
   call $~lib/string/String.UTF8.encode
   local.set $6
   i32.const 1
@@ -9744,7 +9793,7 @@
   call $~lib/rt/pure/__release
   local.get $7
   call $~lib/rt/pure/__release
-  i32.const 7264
+  i32.const 7392
   call $~lib/rt/pure/__release
   local.get $3
   call $~lib/rt/pure/__release
@@ -9850,8 +9899,8 @@
     local.get $0
     i32.const 1
     i32.store8 offset=28
-    i32.const 7328
-    i32.const 7440
+    i32.const 7456
+    i32.const 7568
     i32.const 75
     i32.const 9
     call $~lib/wasi/index/abort
@@ -9884,8 +9933,8 @@
     local.get $0
     i32.const 1
     i32.store8 offset=28
-    i32.const 7584
-    i32.const 7440
+    i32.const 7712
+    i32.const 7568
     i32.const 94
     i32.const 9
     call $~lib/wasi/index/abort
@@ -9972,8 +10021,8 @@
    i32.load offset=12
    i32.eqz
    if
-    i32.const 7680
-    i32.const 7440
+    i32.const 7808
+    i32.const 7568
     i32.const 121
     i32.const 9
     call $~lib/wasi/index/abort
@@ -10011,7 +10060,7 @@
    local.get $5
    call $~lib/rt/pure/__release
   else
-   i32.const 7792
+   i32.const 7920
    i32.const 1760
    i32.const 164
    i32.const 13
@@ -10083,7 +10132,7 @@
   local.get $0
   i32.load offset=24
   i32.const 0
-  i32.const 7296
+  i32.const 7424
   call $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall#constructor
   local.set $8
   i32.const 0
@@ -10138,7 +10187,7 @@
     local.get $9
     call $~lib/typedarray/Uint8Array.wrap@varargs
     local.tee $11
-    i32.const 7920
+    i32.const 8048
     call $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall#constructor
     local.set $10
     i32.const 0
@@ -10295,7 +10344,7 @@
      local.tee $2
      i32.eqz
      if
-      i32.const 7952
+      i32.const 8080
       i32.const 1760
       i32.const 209
       i32.const 7
@@ -10444,7 +10493,7 @@
    local.get $5
    call $~lib/rt/pure/__release
   else
-   i32.const 7792
+   i32.const 7920
    i32.const 5168
    i32.const 128
    i32.const 13
@@ -10468,7 +10517,7 @@
   local.get $0
   i32.load offset=24
   i32.const 0
-  i32.const 8112
+  i32.const 8240
   call $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall#constructor
   local.set $8
   i32.const 0
@@ -10523,7 +10572,7 @@
     local.get $9
     call $~lib/typedarray/Uint8Array.wrap@varargs
     local.tee $11
-    i32.const 8144
+    i32.const 8272
     call $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall#constructor
     local.set $10
     i32.const 0
@@ -10637,7 +10686,7 @@
  )
  (func $~lib/rt/pure/__visit (param $0 i32)
   local.get $0
-  i32.const 8556
+  i32.const 8684
   i32.lt_u
   if
    return
@@ -10749,7 +10798,7 @@
                        i32.const 8
                        i32.sub
                        i32.load
-                       br_table $folding-inner0 $folding-inner0 $folding-inner7 $folding-inner2 $folding-inner7 $folding-inner7 $folding-inner3 $folding-inner4 $~lib/@fastly/as-fetch/request/RequestInit $folding-inner5 $folding-inner2 $folding-inner0 $~lib/@fastly/as-fetch/response/ResponseInit $folding-inner6 $folding-inner0 $folding-inner13 $folding-inner8 $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-pending-upstream-request/FastlyPendingUpstreamRequestInit $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit $folding-inner5 $folding-inner8 $folding-inner9 $folding-inner0 $folding-inner7 $folding-inner0 $folding-inner7 $folding-inner6 $folding-inner14 $folding-inner7 $folding-inner13 $folding-inner0 $folding-inner4 $folding-inner7 $folding-inner3 $folding-inner13 $~lib/assemblyscript-json/decoder/DecoderState $folding-inner7 $folding-inner7 $folding-inner11 $~lib/assemblyscript-json/JSON/Float $folding-inner11 $folding-inner11 $folding-inner11 $folding-inner0 $folding-inner5 $folding-inner9 $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall $folding-inner3 $folding-inner9 $invalid
+                       br_table $folding-inner0 $folding-inner0 $folding-inner7 $folding-inner2 $folding-inner7 $folding-inner7 $folding-inner3 $folding-inner4 $~lib/@fastly/as-fetch/request/RequestInit $folding-inner5 $folding-inner2 $folding-inner0 $~lib/@fastly/as-fetch/response/ResponseInit $folding-inner6 $folding-inner0 $folding-inner13 $folding-inner8 $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-pending-upstream-request/FastlyPendingUpstreamRequestInit $~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request/FastlyUpstreamRequestInit $folding-inner5 $folding-inner8 $folding-inner9 $folding-inner0 $folding-inner7 $folding-inner0 $folding-inner7 $folding-inner6 $folding-inner14 $folding-inner7 $folding-inner0 $folding-inner13 $folding-inner0 $folding-inner4 $folding-inner7 $folding-inner3 $folding-inner13 $~lib/assemblyscript-json/decoder/DecoderState $folding-inner7 $folding-inner7 $folding-inner11 $~lib/assemblyscript-json/JSON/Float $folding-inner11 $folding-inner11 $folding-inner11 $folding-inner5 $folding-inner9 $~lib/@fastly/as-compute/fastly/abi/multi-value-hostcall/MultiValueHostCall $folding-inner3 $folding-inner9 $invalid
                       end
                       local.get $0
                       call $~lib/@fastly/as-fetch/request/RequestInit~visit
